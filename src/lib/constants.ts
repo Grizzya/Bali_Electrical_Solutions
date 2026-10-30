@@ -23,3 +23,6 @@ export const SITE_CONFIG = {
   }
 } as const;
 
+export const WHATSAPP_URL = SITE_CONFIG.whatsappUrl;
+
+

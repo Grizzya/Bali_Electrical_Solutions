@@ -14,7 +14,7 @@ function ServiceRow({ no, item, cta }: { no: number; item: ServiceItem; cta: str
   return (
     <Link
       href={`/#contact`}
-      className="group grid grid-cols-[48px_1fr] gap-3 border-b border-mist-border py-6 transition hover:bg-mist-50/50 md:grid-cols-[72px_1fr_auto] md:gap-4 md:px-3 md:py-7"
+      className="group grid grid-cols-[48px_1fr] gap-3 border-b border-slate-200 py-6 transition hover:bg-slate-50 md:grid-cols-[72px_1fr_auto] md:gap-4 md:px-3 md:py-7"
     >
       <span className="text-2xl font-extrabold text-[#0B5C50] md:text-[28px]">
         {String(no).padStart(2, "0")}
@@ -63,7 +63,7 @@ export default async function Services() {
             <p className="mt-4 leading-[1.7] text-slate-600">{t("subtitle")}</p>
 
             {/* Gambar: desktop saja */}
-            <div className="relative mt-7 hidden h-[260px] overflow-hidden rounded-2xl bg-[#0B5C50]/10 border border-mist-border md:block">
+            <div className="relative mt-7 hidden h-[260px] overflow-hidden rounded-2xl bg-[#0B5C50]/10 border border-slate-200 md:block">
               <Image
                 src="/images/services/cover.webp"
                 alt={t("imageAlt")}
@@ -71,8 +71,8 @@ export default async function Services() {
                 sizes="(min-width: 768px) 50vw, 100vw"
                 className="object-cover"
               />
-              <div className="absolute inset-0 bg-[#0B5C50]/20 flex items-center justify-center">
-                <span className="text-[#073D35] font-bold text-xs uppercase tracking-widest bg-white/80 px-4 py-2 rounded-lg backdrop-blur-xs">
+              <div className="absolute inset-0 bg-[#0B5C50]/10 flex items-center justify-center">
+                <span className="text-[#073D35] font-bold text-xs uppercase tracking-widest bg-white/90 px-4 py-2 rounded-lg backdrop-blur-xs">
                   {t("imageAlt")}
                 </span>
               </div>

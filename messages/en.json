@@ -61,6 +61,21 @@
     }
   },
   "Home": {
+    "about": {
+      "eyebrow": "ABOUT US",
+      "title": "Reliable mechanical & electrical solutions for every building in Bali",
+      "description": "From villas to commercial properties, we handle engineering planning, installation, and maintenance of air systems, ventilation, acoustics, and MEP with precision and measured quality.",
+      "imageAlt": "About Bali Electrical Solutions",
+      "badgeTop": "MEP",
+      "badgeBottom": "Integrated Team",
+      "points": [
+        "Experienced and well-trained technicians",
+        "Satisfaction guarantee on every service",
+        "Trusted by villas, hotels, and commercial businesses",
+        "Flexible scheduling and on-time delivery"
+      ],
+      "cta": "Book Now!"
+    },
     "services": {
       "eyebrow": "OUR SERVICES",
       "title": "Complete Engineering Solutions 01 to 06",
@@ -69,6 +84,27 @@
       "colNo": "NO",
       "colItem": "ITEM",
       "learnMore": "Learn More"
+    },
+    "why": {
+      "title": "Why Choose Us?",
+      "items": [
+        {
+          "title": "Certified & Seasoned Engineers",
+          "description": "Our team consists of licensed engineers with verified records across luxury resorts, private villas, and commercial complexes."
+        },
+        {
+          "title": "Marine & Tropical Grade Materials",
+          "description": "We select corrosion-resistant hardware and anti-condensation materials built to withstand Bali's seaside atmosphere."
+        },
+        {
+          "title": "Energy Efficiency & Low OpEx",
+          "description": "Our engineering blueprints are optimized for minimal electrical consumption and reduced lifetime operational expenditure."
+        },
+        {
+          "title": "Official Warranty & Responsive Support",
+          "description": "Every project is backed by comprehensive labor and material warranties alongside dependable after-sales care."
+        }
+      ]
     }
   },
   "services": {

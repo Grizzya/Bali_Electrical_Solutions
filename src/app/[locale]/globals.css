@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 @theme {
+  --color-teal: #0B5C50;
+  --color-brand: #0F766E;
+  --color-gold: #F2C21B;
+  --color-mist: #f8fafc;
+  --color-mist-border: #e2e8f0;
+  --color-ink: #073D35;
+
   --color-teal-50: #f0fdfa;
   --color-teal-100: #ccfbf1;
   --color-teal-200: #99f6e4;
@@ -29,7 +36,6 @@
   --color-mist-200: #e2e8f0;
   --color-mist-300: #cbd5e1;
   --color-mist-card: #f8fafc;
-  --color-mist-border: #e2e8f0;
 
   --color-ink-50: #f8fafc;
   --color-ink-100: #f1f5f9;

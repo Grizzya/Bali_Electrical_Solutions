@@ -61,6 +61,21 @@
     }
   },
   "Home": {
+    "about": {
+      "eyebrow": "ABOUT US",
+      "title": "Solusi mekanikal & elektrikal yang andal untuk setiap bangunan di Bali",
+      "description": "Dari villa hingga properti komersial, kami menangani perencanaan, instalasi, dan perawatan sistem udara, ventilasi, akustik, serta MEP dengan pengerjaan rapi dan terukur.",
+      "imageAlt": "Tentang Bali Electrical Solutions",
+      "badgeTop": "MEP",
+      "badgeBottom": "Integrated Team",
+      "points": [
+        "Teknisi berpengalaman dan terlatih",
+        "Garansi kepuasan di setiap layanan",
+        "Dipercaya villa, hotel, dan bisnis",
+        "Jadwal fleksibel dan tepat waktu"
+      ],
+      "cta": "Book Now!"
+    },
     "services": {
       "eyebrow": "LAYANAN KAMI",
       "title": "Solusi Rekayasa Lengkap 01 Hingga 06",
@@ -69,6 +84,27 @@
       "colNo": "NO",
       "colItem": "ITEM",
       "learnMore": "Pelajari Selengkapnya"
+    },
+    "why": {
+      "title": "Kenapa Memilih Kami?",
+      "items": [
+        {
+          "title": "Teknisi Berpengalaman & Bersertifikat",
+          "description": "Tim kami terdiri dari insinyur dan teknisi berlisensi dengan rekam jejak terbukti dalam proyek-proyek residensial mewah dan komersial bergengsi."
+        },
+        {
+          "title": "Material & Komponen Standar Industri",
+          "description": "Kami hanya menggunakan material berspesifikasi tinggi yang teruji tahan korosi cuaca laut dan cuaca tropis Bali."
+        },
+        {
+          "title": "Efisiensi Energi & Ramah Lingkungan",
+          "description": "Desain teknik kami memprioritaskan konsumsi daya terendah tanpa mengorbankan performa sistem."
+        },
+        {
+          "title": "Jaminan Garansi Resmi & Sigap",
+          "description": "Setiap pekerjaan instalasi disertai garansi hasil kerja nyata dan komitmen layanan purna jual yang sigap."
+        }
+      ]
     }
   },
   "services": {
