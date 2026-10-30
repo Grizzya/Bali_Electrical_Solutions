@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Bali Electrical Solutions - Solusi Teknik Tata Udara, Kelistrikan & MEP di Bali",
+    "description": "Jasa rekayasa teknik terpercaya di Bali untuk sistem HVAC, ducting, fresh air intake, ventilasi industri, akustik peredam, dan MEP mekanikal elektrikal."
+  },
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "about": "Tentang Kami",
+    "gallery": "Galeri",
+    "whyUs": "Keunggulan",
+    "contact": "Hubungi Kami",
+    "consultation": "Konsultasi Gratis"
+  },
+  "hero": {
+    "badge": "Mitra Rekayasa Teknik & Tata Udara Profesional di Bali",
+    "titleLine1": "Udara bersih,",
+    "titleLine2": "ruang nyaman,",
+    "titleLine3": "sistem andal.",
+    "title": "Solusi Tata Udara, MEP & Kelistrikan Berkualitas Tinggi",
+    "subtitle": "Bali Electrical Solutions menangani HVAC, ducting, ventilasi, peredam suara, dan MEP untuk villa, hotel, dan bangunan komersial di Bali.",
+    "ctaPrimary": "Minta Penawaran",
+    "ctaSecondary": "Lihat Layanan",
+    "imagePlaceholder": "[FOTO UTAMA: TEKNISI / PROYEK HVAC]",
+    "stats": {
+      "projects": "Proyek Selesai",
+      "projectsCount": "500+",
+      "experience": "Pengalaman Industri",
+      "experienceCount": "12+ Thn",
+      "satisfaction": "Kepuasan Klien",
+      "satisfactionCount": "99%",
+      "engineers": "Teknisi Tersertifikasi",
+      "engineersCount": "35+"
+    }
+  },
+  "about": {
+    "badge": "ABOUT US",
+    "title": "Solusi mekanikal & elektrikal yang andal untuk setiap bangunan di Bali",
+    "description": "Dari villa hingga properti komersial, kami menangani perencanaan, instalasi, dan perawatan sistem udara, ventilasi, akustik, serta MEP dengan pengerjaan rapi dan terukur.",
+    "bullets": [
+      "Teknisi berpengalaman dan terlatih",
+      "Garansi kepuasan di setiap layanan",
+      "Dipercaya villa, hotel, dan bisnis",
+      "Jadwal fleksibel dan tepat waktu"
+    ],
+    "cta": "Book Now!",
+    "badgeMEP": "MEP",
+    "badgeSub": "Integrated Team",
+    "imagePlaceholder": "[FOTO TIM / PROYEK]",
+    "description1": "Bali Electrical Solutions hadir sebagai partner strategis terpercaya bagi pemilik vila, manajemen resort, gedung komersial, serta industri di Bali yang membutuhkan tata udara efisien, sistem kelistrikan aman, dan instalasi mekanikal tahan lama.",
+    "description2": "Dengan keahlian mendalam dalam menangani kelembapan tinggi serta tantangan korosi udara pesisir tropis, tim insinyur kami merancang setiap sistem dengan standar presisi tinggi, efisiensi energi optimal, dan keandalan jangka panjang.",
+    "visionTitle": "Visi Kami",
+    "visionDesc": "Menjadi standar keunggulan teknik MEP dan tata udara terdepan di Bali dengan inovasi berkelanjutan dan efisiensi energi.",
+    "missionTitle": "Misi Kami",
+    "missionDesc": "Memberikan instalasi berkualitas tinggi tanpa kompromi, mengedepankan keamanan, kepatuhan standar internasional, dan layanan purna jual responsif.",
+    "points": {
+      "standard": "Standar keselamatan & kelayakan ketat",
+      "tropical": "Optimalisasi khusus iklim tropis & pesisir",
+      "efficiency": "Efisiensi energi untuk penghematan operasional",
+      "support": "Layanan inspeksi & darurat cepat"
+    }
+  },
+  "Home": {
+    "services": {
+      "eyebrow": "LAYANAN KAMI",
+      "title": "Solusi Rekayasa Lengkap 01 Hingga 06",
+      "subtitle": "Dari perencanaan sistem pendingin presisi hingga instalasi MEP terintegrasi, kami memastikan setiap detail bangunan Anda beroperasi optimal, efisien, dan tahan lama di iklim Bali.",
+      "imageAlt": "Layanan Rekayasa Bali Electrical Solutions",
+      "colNo": "NO",
+      "colItem": "ITEM",
+      "learnMore": "Pelajari Selengkapnya"
+    }
+  },
+  "services": {
+    "badge": "Layanan Unggulan Kami",
+    "title": "Solusi Rekayasa Lengkap Dari 01 Hingga 06",
+    "subtitle": "Rangkaian layanan profesional kami dirancang untuk memastikan kenyamanan termal, kualitas udara prima, dan keandalan mekanikal bangunan Anda.",
+    "itemPrefix": "Layanan",
+    "ctaDetail": "Konsultasikan Kebutuhan Ini",
+    "items": {
+      "hvac": {
+        "title": "Sistem HVAC & Pendingin",
+        "description": "Perancangan, instalasi, dan perawatan sistem pendingin udara (AC VRV/VRF, chiller, split duct) dengan efisiensi energi maksimal untuk kenyamanan hunian dan komersial.",
+        "features": [
+          "Sistem Multi-Zone VRV / VRF hemat energi",
+          "Water-cooled & Air-cooled Chillers",
+          "Kontrol suhu & kelembapan presisi",
+          "Perawatan berkala & perbaikan darurat"
+        ]
+      },
+      "ducting": {
+        "title": "Fabrikasi & Sistem Ducting",
+        "description": "Fabrikasi presisi dan pemasangan saluran udara berbahan PIR (Polyisocyanurate), BJLS (seng), serta spiral duct dengan isolasi termal anti kondensasi.",
+        "features": [
+          "Fabrikasi PIR Duct & Galvanized BJLS Duct",
+          "Isolasi termal berkualitas tahan kelembapan tinggi",
+          "Desain aerodinamis minim hambatan udara",
+          "Diffuser, grille, dan damper berstandar estetika arsitektur"
+        ]
+      },
+      "freshAir": {
+        "title": "Fresh Air & Sirkulasi Bersih",
+        "description": "Penyediaan pasokan udara segar luar ruangan yang tersaring untuk menjaga sirkulasi oksigen, menyeimbangkan tekanan ruangan, dan mencegah jamur di ruangan ber-AC.",
+        "features": [
+          "Heat Recovery Ventilator (HRV / ERV)",
+          "Filtrasi udara bertingkat (Pre-filter, Carbon & HEPA)",
+          "Pengontrol kelembapan udara masuk (Dehumidification)",
+          "Mencegah aroma apak & pertumbuhan jamur di area lembap"
+        ]
+      },
+      "ventilation": {
+        "title": "Ventilasi Industri & Komersial",
+        "description": "Sistem exhaust berkekuatan tinggi untuk dapur restoran/hotel (kitchen hood), ruang genset, basement parkir, laundry, dan area industri.",
+        "features": [
+          "Kitchen Hood Exhaust & Ecology Unit penghilang asap",
+          "Ventilasi ruang genset & ruang mesin trafo",
+          "Exhaust fan basement & toilet komersial",
+          "Sistem pembuangan panas intensif"
+        ]
+      },
+      "acoustic": {
+        "title": "Peredam Suara & Akustik Ruang",
+        "description": "Solusi peredam kebisingan dan isolasi getaran untuk ruang chiller, genset, blower fan, serta ruang genset vila agar lingkungan tetap tenang dan nyaman.",
+        "features": [
+          "Silencer saluran ducting (Acoustic Attenuator)",
+          "Soundproofing dinding ruang mesin & genset",
+          "Vibration isolator mounting untuk pompa & kompresor",
+          "Uji decibel & kepatuhan batas kebisingan lingkungan"
+        ]
+      },
+      "mep": {
+        "title": "MEP (Mekanikal, Elektrikal & Plumbing)",
+        "description": "Solusi terintegrasi untuk instalasi panel listrik, distribusi daya tegangan rendah/menengah, grounding penangkal petir, serta sistem pipa air bersih dan kotor.",
+        "features": [
+          "Perakitan panel distribusi utama (LVMDP) & sub-panel",
+          "Instalasi kabel daya, grounding & penangkal petir",
+          "Sistem pemipaan air bersih, air panas & booster pump",
+          "Audit kelistrikan, load balancing & sertifikasi keselamatan"
+        ]
+      }
+    }
+  },
+  "whyUs": {
+    "badge": "Mengapa Memilih Kami",
+    "title": "Standar Keunggulan yang Membedakan Kami",
+    "subtitle": "Kombinasi pengalaman lapangan, sertifikasi resmi, dan dedikasi pada kepuasan pelanggan menjadikan kami pilihan utama di Bali.",
+    "items": [
+      {
+        "title": "Teknisi Berpengalaman & Bersertifikat",
+        "desc": "Tim kami terdiri dari insinyur dan teknisi berlisensi dengan rekam jejak terbukti dalam proyek-proyek residensial mewah dan komersial bergengsi."
+      },
+      {
+        "title": "Material & Komponen Standar Industri",
+        "desc": "Kami hanya menggunakan material berspesifikasi tinggi yang teruji tahan korosi cuaca laut dan cuaca tropis Bali."
+      },
+      {
+        "title": "Efisiensi Energi & Ramah Lingkungan",
+        "desc": "Desain teknik kami memprioritaskan konsumsi daya terendah tanpa mengorbankan performa sistem."
+      },
+      {
+        "title": "Jaminan Garansi Resmi",
+        "desc": "Setiap pekerjaan instalasi disertai garansi hasil kerja nyata dan komitmen layanan purna jual yang sigap."
+      },
+      {
+        "title": "Ketepatan Waktu & Anggaran Jelas",
+        "desc": "Perencanaan matang memastikan setiap proyek selesai tepat waktu dengan transparansi biaya tanpa kejutan tersembunyi."
+      },
+      {
+        "title": "Dukungan Respons Cepat 24/7",
+        "desc": "Kesiapan bantuan teknis cepat untuk memastikan operasional bisnis perhotelan dan vila Anda tidak terganggu."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "badge": "Mulai Proyek Anda Bersama Kami",
+    "title": "Butuh Konsultasi Tata Udara atau Kelistrikan di Bali?",
+    "subtitle": "Diskusikan kebutuhan properti, vila, atau gedung komersial Anda bersama tim engineer ahli kami hari ini. Kami siap melakukan survei lokasi dan memberikan penawaran terbaik.",
+    "ctaWhatsapp": "Hubungi WhatsApp Sekarang",
+    "ctaEmail": "Kirim Pertanyaan via Email"
+  },
+  "footer": {
+    "aboutText": "Penyedia jasa terkemuka di Bali untuk rekayasa sistem HVAC, ducting, sirkulasi fresh air, ventilasi industri, akustik peredam bising, dan MEP kelistrikan.",
+    "quickLinks": "Navigasi Cepat",
+    "servicesTitle": "Layanan Kami",
+    "contactTitle": "Hubungi Kami",
+    "operatingHours": "Jam Operasional",
+    "rights": "Hak Cipta Dilindungi Undang-Undang."
+  },
+  "notFound": {
+    "title": "Halaman Tidak Ditemukan",
+    "description": "Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.",
+    "backHome": "Kembali ke Beranda"
+  }
+}
+

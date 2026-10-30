@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Bali Electrical Solutions - HVAC, Electrical & MEP Engineering in Bali",
+    "description": "Bali's trusted engineering partner for HVAC systems, duct fabrication, fresh air intake, industrial ventilation, acoustic soundproofing, and MEP services."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "whyUs": "Why Us",
+    "contact": "Contact Us",
+    "consultation": "Free Consultation"
+  },
+  "hero": {
+    "badge": "Professional HVAC, Electrical & MEP Engineering in Bali",
+    "titleLine1": "Clean air,",
+    "titleLine2": "comfortable spaces,",
+    "titleLine3": "reliable systems.",
+    "title": "High-Performance Air Conditioning, MEP & Electrical Solutions",
+    "subtitle": "Bali Electrical Solutions delivers HVAC, ducting, ventilation, acoustic soundproofing, and MEP for villas, hotels, and commercial buildings in Bali.",
+    "ctaPrimary": "Request Quote",
+    "ctaSecondary": "View Services",
+    "imagePlaceholder": "[MAIN PHOTO: HVAC ENGINEER / PROJECT]",
+    "stats": {
+      "projects": "Completed Projects",
+      "projectsCount": "500+",
+      "experience": "Industry Experience",
+      "experienceCount": "12+ Yrs",
+      "satisfaction": "Client Satisfaction",
+      "satisfactionCount": "99%",
+      "engineers": "Certified Engineers",
+      "engineersCount": "35+"
+    }
+  },
+  "about": {
+    "badge": "ABOUT US",
+    "title": "Reliable mechanical & electrical solutions for every building in Bali",
+    "description": "From private villas to commercial establishments, we manage engineering design, installation, and lifecycle maintenance for HVAC, ventilation, acoustics, and MEP with precision craftsmanship.",
+    "bullets": [
+      "Experienced & rigorously certified technicians",
+      "Satisfaction guarantee on every service",
+      "Trusted by villas, luxury resorts, and businesses",
+      "Flexible scheduling & punctual project delivery"
+    ],
+    "cta": "Book Now!",
+    "badgeMEP": "MEP",
+    "badgeSub": "Integrated Team",
+    "imagePlaceholder": "[TEAM / PROJECT PHOTO]",
+    "description1": "Bali Electrical Solutions is a premier engineering contractor dedicated to luxury villa owners, resort operators, commercial buildings, and industrial facilities requiring top-tier climate control, dependable power systems, and durable mechanical installations.",
+    "description2": "With deep understanding of Bali's high ambient humidity and aggressive coastal air salinity, our engineers design every system to ensure exceptional durability, maximum thermal comfort, and optimized energy efficiency.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To set the standard of excellence for MEP and HVAC engineering across Bali through sustainable innovations and energy-efficient design.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "Delivering uncompromising installation quality, prioritizing safety standards, international compliance, and rapid-response lifecycle support.",
+    "points": {
+      "standard": "Stringent safety & compliance standards",
+      "tropical": "Engineered for tropical coastal environments",
+      "efficiency": "Maximized energy savings & low footprint",
+      "support": "Rapid on-site emergency assistance"
+    }
+  },
+  "Home": {
+    "services": {
+      "eyebrow": "OUR SERVICES",
+      "title": "Complete Engineering Solutions 01 to 06",
+      "subtitle": "From precision climate control design to integrated MEP installations, we ensure every element of your building operates efficiently and reliably across Bali's tropical conditions.",
+      "imageAlt": "Bali Electrical Solutions Engineering Services",
+      "colNo": "NO",
+      "colItem": "ITEM",
+      "learnMore": "Learn More"
+    }
+  },
+  "services": {
+    "badge": "Our Core Services",
+    "title": "Complete Engineering Solutions From 01 to 06",
+    "subtitle": "Our integrated services ensure optimum indoor air quality, thermal comfort, noise control, and robust mechanical-electrical infrastructure.",
+    "itemPrefix": "Service",
+    "ctaDetail": "Inquire About This Service",
+    "items": {
+      "hvac": {
+        "title": "HVAC & Air Conditioning",
+        "description": "Design, installation, and maintenance of high-efficiency air conditioning systems (VRV/VRF, chillers, concealed ducted units) for premium residential and commercial spaces.",
+        "features": [
+          "Energy-saving Multi-Zone VRV / VRF systems",
+          "Water-cooled & Air-cooled Chillers",
+          "Precise climate & humidity management",
+          "Comprehensive preventive maintenance & emergency care"
+        ]
+      },
+      "ducting": {
+        "title": "Ducting Fabrication & Installation",
+        "description": "Precision fabrication and installation of PIR pre-insulated ducting, galvanized steel (BJLS) ductwork, and spiral ducts with superior thermal vapor barrier insulation.",
+        "features": [
+          "PIR Pre-Insulated & Galvanized BJLS Ducting",
+          "High condensation resistance for humid environments",
+          "Aerodynamic design reducing air friction & energy loss",
+          "Architectural diffusers, linear grilles, and dampers"
+        ]
+      },
+      "freshAir": {
+        "title": "Fresh Air & Circulation Systems",
+        "description": "Filtered outdoor fresh air intake systems to sustain oxygen circulation, maintain positive room pressure, and eliminate mold/mildew in air-conditioned spaces.",
+        "features": [
+          "Heat / Energy Recovery Ventilators (HRV / ERV)",
+          "Multi-stage air filtration (Pre-filter, Carbon & HEPA)",
+          "Integrated dehumidification for incoming humid air",
+          "Elimination of stuffiness and moisture-induced odors"
+        ]
+      },
+      "ventilation": {
+        "title": "Industrial & Commercial Ventilation",
+        "description": "Heavy-duty exhaust and ventilation systems for commercial hotel and restaurant kitchens (hoods), generator rooms, basements, and laundry facilities.",
+        "features": [
+          "Commercial kitchen hoods with smoke/grease filtration",
+          "High-volume genset & transformer room ventilation",
+          "Carpark basement & commercial restroom exhaust",
+          "High-temperature thermal dissipation systems"
+        ]
+      },
+      "acoustic": {
+        "title": "Acoustic Attenuation & Soundproofing",
+        "description": "Engineered noise reduction and vibration dampening for chiller plants, generator enclosures, rooftop fans, and luxury villa mechanical rooms.",
+        "features": [
+          "In-line duct sound attenuators (Silencers)",
+          "Acoustic paneling & equipment enclosures",
+          "Anti-vibration spring and neoprene mountings",
+          "Decibel compliance testing & acoustic consulting"
+        ]
+      },
+      "mep": {
+        "title": "MEP (Mechanical, Electrical & Plumbing)",
+        "description": "Full electrical panel fabrication, low/medium voltage power distribution, lightning protection grounding, and domestic clean/wastewater plumbing systems.",
+        "features": [
+          "Main distribution boards (LVMDP) & custom sub-panels",
+          "Power cabling, load balancing & lightning protection",
+          "Pressurized clean water, booster pumps & drainage piping",
+          "Electrical safety audits, thermography & certification"
+        ]
+      }
+    }
+  },
+  "whyUs": {
+    "badge": "Why Choose Us",
+    "title": "Engineering Standards That Set Us Apart",
+    "subtitle": "Combining proven field expertise, certified engineers, and unyielding dedication to reliability across the island of Bali.",
+    "items": [
+      {
+        "title": "Certified & Seasoned Engineers",
+        "desc": "Our team consists of licensed engineers with verified records across luxury resorts, private villas, and commercial complexes."
+      },
+      {
+        "title": "Marine & Tropical Grade Materials",
+        "desc": "We select corrosion-resistant hardware and anti-condensation materials built to withstand Bali's seaside atmosphere."
+      },
+      {
+        "title": "Energy Efficiency & Low OpEx",
+        "desc": "Our engineering blueprints are optimized for minimal electrical consumption and reduced lifetime operational expenditure."
+      },
+      {
+        "title": "Transparent Workmanship Warranty",
+        "desc": "Every project is backed by comprehensive labor and material warranties alongside dependable after-sales care."
+      },
+      {
+        "title": "On-Time & On-Budget Delivery",
+        "desc": "Thorough project management ensures on-schedule milestone completion with transparent, unhidden cost structures."
+      },
+      {
+        "title": "24/7 Priority Emergency Support",
+        "desc": "Dedicated support team on call to keep critical hospitality and residential systems running smoothly without downtime."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "badge": "Start Your Project With Us",
+    "title": "Need HVAC, Electrical, or MEP Consultation in Bali?",
+    "subtitle": "Discuss your villa, resort, or commercial project with our senior engineers today. We offer site surveys, system evaluations, and tailored technical proposals.",
+    "ctaWhatsapp": "Contact via WhatsApp",
+    "ctaEmail": "Send an Email Inquiry"
+  },
+  "footer": {
+    "aboutText": "Bali's leading engineering specialist in HVAC climate control, custom ducting, fresh air intake, industrial exhaust, acoustic treatment, and integrated MEP infrastructure.",
+    "quickLinks": "Quick Navigation",
+    "servicesTitle": "Our Services",
+    "contactTitle": "Contact Information",
+    "operatingHours": "Operating Hours",
+    "rights": "All Rights Reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist or has been moved.",
+    "backHome": "Return to Homepage"
+  }
+}
+
