@@ -9,6 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        primary: {
+          DEFAULT: "#0B5C50",
+          hover: "#08493f",
+        },
+        brand: {
+          DEFAULT: "#0B5C50",
+        },
         teal: {
           50: "#f0fdfa",
           100: "#ccfbf1",
@@ -17,11 +24,11 @@ const config: Config = {
           400: "#2dd4bf",
           500: "#14b8a6",
           600: "#0d9488",
-          700: "#0f766e",
-          800: "#115e59",
-          900: "#134e4a",
-          950: "#042f2e",
-          DEFAULT: "#0f766e",
+          700: "#0B5C50",
+          800: "#08493f",
+          900: "#063730",
+          950: "#04241f",
+          DEFAULT: "#0B5C50",
         },
         gold: {
           50: "#fefce8",

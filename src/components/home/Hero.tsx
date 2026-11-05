@@ -32,16 +32,16 @@ export default function Hero() {
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
             
-            {/* Kolom Kiri: Teks & Aksi */}
-            <div className="lg:col-span-6 space-y-6 lg:space-y-7 text-left">
+            {/* Kolom Kiri: Teks & Aksi dengan animasi fade entrance */}
+            <div className="lg:col-span-6 space-y-6 lg:space-y-7 text-left animate-hero-fade">
               {/* Aksen Garis Emas */}
               <div className="w-16 h-1.5 bg-[#F2C21B] rounded-full"></div>
 
               {/* Judul Utama 3 Baris - Lebih Besar & Berjarak Proporsional */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] font-black font-heading tracking-tight leading-[1.12]">
-                <span className="block text-[#073D35]">{t('titleLine1')}</span>
-                <span className="block text-[#073D35]">{t('titleLine2')}</span>
-                <span className="block text-[#0F766E]">{t('titleLine3')}</span>
+                <span className="block text-[#0B5C50]">{t('titleLine1')}</span>
+                <span className="block text-[#0B5C50]">{t('titleLine2')}</span>
+                <span className="block text-[#0B5C50]">{t('titleLine3')}</span>
               </h1>
 
               {/* Subtitle / Deskripsi */}
@@ -55,28 +55,28 @@ export default function Hero() {
                   href={SITE_CONFIG.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-[#F2C21B] hover:bg-[#e0b316] text-[#073D35] font-bold text-base sm:text-lg px-8 py-3.5 rounded-xl transition-all duration-200 active:scale-95 shadow-md hover:shadow-lg"
+                  className="inline-flex items-center justify-center bg-[#F2C21B] hover:bg-[#e0b316] text-[#0B5C50] font-bold text-base sm:text-lg px-8 py-3.5 rounded-xl transition-all duration-300 hover:scale-[1.03] active:scale-95 shadow-md hover:shadow-xl"
                 >
                   {t('ctaPrimary')}
                 </a>
               </div>
             </div>
 
-            {/* Kolom Kanan: Foto Utama dengan Outer Yellow Line Frame */}
-            <div className="lg:col-span-6 flex justify-center lg:justify-end">
-              <div className="relative w-full max-w-md lg:max-w-xl p-3 sm:p-4">
-                {/* Outer Yellow Frame Accent */}
-                <div className="absolute inset-0 rounded-[2.5rem] sm:rounded-[3rem] border-2 border-[#F2C21B] pointer-events-none"></div>
+            {/* Kolom Kanan: Foto Utama dengan Outer Yellow Line Frame & Entrance Scale */}
+            <div className="lg:col-span-6 flex justify-center lg:justify-end animate-hero-image">
+              <div className="relative w-full max-w-md lg:max-w-xl p-3 sm:p-4 group">
+                {/* Outer Yellow Frame Accent dengan soft pulse halus */}
+                <div className="absolute inset-0 rounded-[2.5rem] sm:rounded-[3rem] border-2 border-[#F2C21B] pointer-events-none transition-transform duration-500 group-hover:scale-105"></div>
 
-                {/* Main Photo Container - Dibuat Lebih Besar & Tinggi */}
-                <div className="relative aspect-[4/3] min-h-[300px] sm:min-h-[380px] lg:min-h-[420px] w-full rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden bg-slate-100 shadow-2xl flex items-center justify-center">
+                {/* Main Photo Container */}
+                <div className="relative aspect-[4/3] min-h-[300px] sm:min-h-[380px] lg:min-h-[420px] w-full rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden bg-slate-100 shadow-2xl flex items-center justify-center transition-transform duration-500 group-hover:scale-[0.99]">
                   <Image
                     src="/images/hero.webp"
                     alt="Bali Electrical Solutions Hero Engineering"
                     fill
                     priority
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                   />
 
                   {/* Subtle text placeholder overlay */}
@@ -93,8 +93,8 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* Strip Statistik Bawah: Background Solid #0F766E (Menempel pas di dasar layar pertama) */}
-      <section className="bg-[#0F766E] text-white py-6 lg:py-8 border-t border-b border-[#0F766E]/20 shrink-0">
+     
+      <section className="bg-[#0B5C50] text-white py-6 lg:py-8 border-t border-b border-[#0B5C50]/20 shrink-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 md:divide-x md:divide-white/20 items-center">
             {stats.map((item, idx) => (

@@ -76,6 +76,11 @@
       ],
       "cta": "Book Now!"
     },
+    "dividerStrip": {
+      "tagline": "Air, Sound & MEP Engineering in Bali",
+      "consultation": "Consult Your Project Needs With Us",
+      "guarantee": "Official Quality Standards & Warranty"
+    },
     "services": {
       "eyebrow": "OUR SERVICES",
       "title": "Complete Engineering Solutions 01 to 06",
@@ -103,6 +108,48 @@
         {
           "title": "Official Warranty & Responsive Support",
           "description": "Every project is backed by comprehensive labor and material warranties alongside dependable after-sales care."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Build Exceptional Climate & MEP Engineering With Us",
+      "subtitle": "Consult your villa, resort, or commercial project requirements directly with our licensed engineering team today.",
+      "button": "Get in Touch"
+    },
+    "testimonials": {
+      "eyebrow": "CLIENT TESTIMONIALS",
+      "title": "Trusted by Bali's Premier Properties & Businesses",
+      "subtitle": "Real experiences from luxury villa owners, boutique resorts, and commercial operators across Bali.",
+      "items": [
+        {
+          "name": "Alexandre Mercier",
+          "role": "Owner, Luxury Cliff Villa Uluwatu",
+          "content": "The VRV installation and PIR ducting are incredibly clean and accurate. Indoor cooling stays remarkably steady despite the harsh coastal cliff conditions.",
+          "rating": 5
+        },
+        {
+          "name": "Ketut Suardika",
+          "role": "General Manager, Seminyak Boutique Resort",
+          "content": "The soundproofing engineered for our chiller plant and generator room made an immense difference. Guests enjoy total acoustic serenity.",
+          "rating": 5
+        },
+        {
+          "name": "Sarah Jenkins",
+          "role": "Managing Director, Canggu Dining Group",
+          "content": "Our restaurant kitchen hood exhaust and air circulation operate flawlessly. Highly impressed by their engineering punctuality and neat execution.",
+          "rating": 5
+        },
+        {
+          "name": "Budi Hartono",
+          "role": "Property Developer, Sanur Residential Complex",
+          "content": "LVMDP electrical panels, lightning protection, and plumbing works were completed on schedule under strict standards. An exceptional partner.",
+          "rating": 5
+        },
+        {
+          "name": "Liam Henderson",
+          "role": "Villa Estate Manager, Ubud Retreat",
+          "content": "The fresh air and dehumidification system keeps our enclosed suites completely free from mustiness and mold, even during peak rainy humidity in Ubud.",
+          "rating": 5
         }
       ]
     }
@@ -226,6 +273,214 @@
     "title": "Page Not Found",
     "description": "Sorry, the page you are looking for does not exist or has been moved.",
     "backHome": "Return to Homepage"
+  },
+  "servicesSection": {
+    "title": "Our Engineering Services",
+    "subtitle": "From precision HVAC to integrated MEP solutions, we ensure your building operates flawlessly in Bali's tropical climate.",
+    "viewAllCta": "Consult Project Needs",
+    "clickHint": "Click to view photos & specs",
+    "featuresTitle": "Scope & Key Highlights",
+    "ctaDetail": "Inquire About This Service",
+    "modalClose": "Close"
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Engineering & MEP Services in Bali",
+      "description": "Complete engineering services in Bali covering HVAC systems, custom ducting, fresh air circulation, industrial ventilation, acoustics, and integrated MEP."
+    },
+    "hero": {
+      "eyebrow": "ENGINEERING & MEP CATALOG",
+      "title": "Comprehensive Engineering Services",
+      "subtitle": "In-depth technical specifications and engineering standards for MEP, HVAC, ducting, ventilation, and acoustic systems in Bali villas, resorts, and commercial spaces."
+    },
+    "process": {
+      "eyebrow": "OUR PROCESS",
+      "title": "Structured Engineering Workflow",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Consultation & Site Survey",
+          "desc": "Our senior engineers evaluate physical structure, heat load, power distribution, and seaside coastal atmospheric demands."
+        },
+        {
+          "num": "02",
+          "title": "Engineering Design & Estimation",
+          "desc": "Technical schematics, CFM/BTU calculation, load balancing, and clear project cost transparency without hidden items."
+        },
+        {
+          "num": "03",
+          "title": "High-Precision Installation",
+          "desc": "Execution following strict SNI & ASHRAE standards with tropical corrosion-resistant hardware and supervision."
+        },
+        {
+          "num": "04",
+          "title": "Testing, Balancing & Warranty",
+          "desc": "Airflow balancing, static pressure checks, decibel noise testing, formal commissioning, and official warranty handoff."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Do you work with both private luxury villas and large commercial resorts?",
+          "a": "Yes, our engineering portfolio covers private luxury villas, dining venues, boutique resorts, and full-scale commercial buildings across Bali."
+        },
+        {
+          "q": "Why does ducting in Bali require specialized engineering?",
+          "a": "High tropical humidity creates extreme condensation and mold hazards. We implement premium vapor barriers, PIR ducting, and anti-corrosive fittings."
+        },
+        {
+          "q": "What warranty terms do you provide for installations?",
+          "a": "All projects include official workmanship warranties, verified commissioning reports, and dedicated technical after-sales assistance."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Discuss Your MEP & Air Engineering Project",
+      "subtitle": "Our certified engineers are ready to visit your site and provide tailored technical recommendations.",
+      "button": "Speak with Our Engineers"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About Us - Climate Engineering & MEP Specialists in Bali",
+      "description": "Discover Bali Electrical Solutions: Bali's trusted engineering partner for HVAC, custom ducting, ventilation, acoustic insulation, and full MEP infrastructure."
+    },
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Your trusted MEP and climate engineering partner in Bali, delivering durable, energy-efficient cooling, ventilation, and electrical systems built for the tropics."
+    },
+    "stats": [
+      { "value": "12+", "label": "Years Experience", "desc": "Managing HVAC & MEP projects in Bali" },
+      { "value": "500+", "label": "Successful Projects", "desc": "Luxury villas, hotels & commercial builds" },
+      { "value": "35+", "label": "Engineers & Techs", "desc": "Certified & field-tested workforce" },
+      { "value": "100%", "label": "Code Compliance", "desc": "SNI, PUIL & ASHRAE aligned" }
+    ],
+    "story": {
+      "eyebrow": "OUR STORY",
+      "title": "Engineered for Bali's Demanding Tropical Climate",
+      "lead": "Bali's natural beauty attracts world-class architecture, but its microclimate presents severe engineering hurdles for building infrastructure.",
+      "p1": "Relative humidity routinely exceeding 85%, saline air from coastal trade winds across Canggu, Uluwatu, Seminyak, and Sanur, and extreme solar heat gain demand specialized engineering that standard installations simply cannot withstand.",
+      "p2": "Too many properties suffer from dripping ductwork caused by condensation, premature condenser coil erosion from salt spray, and unbalanced electrical phases leading to repeated breaker trips. Bali Electrical Solutions was founded to solve this with scientific rigor: accurate heat load modeling, marine-grade anti-corrosive materials, and certified vapor-sealed closed-cell insulation.",
+      "p3": "From open-concept luxury villas to 5-star beachfront resorts and high-volume commercial venues, we provide an integrated engineering team taking complete accountability from conceptual design and sizing through installation, balancing, and proactive maintenance.",
+      "highlights": [
+        "System architecture custom-engineered for Bali's coastal microclimates",
+        "Scientific heat load modeling and CFM airflow balancing",
+        "Marine-grade corrosion defense & condensation-proof insulation",
+        "Single-source technical responsibility from blueprint to commissioning"
+      ]
+    },
+    "visionMission": {
+      "eyebrow": "DIRECTION & PURPOSE",
+      "title": "Our Vision & Mission",
+      "subtitle": "The foundational principles guiding every engineer and technician on every project site.",
+      "vision": {
+        "tag": "OUR VISION",
+        "title": "The Benchmark for Tropical Engineering Excellence",
+        "description": "To be the most respected and dependable MEP and climate engineering partner in Bali and Eastern Indonesia, recognized for design integrity, verified energy savings, and decades-long durability."
+      },
+      "mission": {
+        "tag": "OUR MISSION",
+        "title": "Uncompromising Engineering Precision",
+        "description": "To execute world-class installations adhering to international safety codes, minimize long-term electrical operational expenses, and provide prompt, dependable after-sales engineering care."
+      }
+    },
+    "pillars": {
+      "eyebrow": "CORE VALUES",
+      "title": "Our Engineering Pillars",
+      "subtitle": "Every system we specify and install is anchored by these six engineering disciplines.",
+      "items": [
+        {
+          "num": "01",
+          "title": "Engineering Precision & Load Sizing",
+          "desc": "No rule-of-thumb guesswork. Every HVAC and ventilation run is sized against room volume, solar orientation, and occupancy density using ASHRAE formulas."
+        },
+        {
+          "num": "02",
+          "title": "Tropical & Coastal Climate Defense",
+          "desc": "We deploy closed-cell elastomeric insulation, anti-corrosive blue/gold fin coatings on condensers, and marine-grade stainless hardware to neutralize sea salt."
+        },
+        {
+          "num": "03",
+          "title": "Measurable Energy Efficiency",
+          "desc": "We engineer high-efficiency inverter units, VRF systems, and optimized duct aerodynamics to dramatically lower electrical consumption and monthly operational costs."
+        },
+        {
+          "num": "04",
+          "title": "Strict Safety & Code Compliance",
+          "desc": "All electrical distributions adhere to Indonesian PUIL/SNI standards, ensuring balanced 3-phase loads, proper earth grounding, and surge protection."
+        },
+        {
+          "num": "05",
+          "title": "Transparent Specifications & BOQ",
+          "desc": "Bill of Quantities (BOQ) are clearly itemized with genuine brands, gauges, and material ratings, eliminating hidden extras or on-site quality compromises."
+        },
+        {
+          "num": "06",
+          "title": "Official Warranty & Responsive Support",
+          "desc": "All installations come with comprehensive workmanship warranties and an on-island team of Bali-based technicians ready for rapid service response."
+        }
+      ]
+    },
+    "standards": {
+      "eyebrow": "ENGINEERING STANDARDS",
+      "title": "International Codes & Quality Frameworks",
+      "subtitle": "We operate strictly within internationally recognized industry standards:",
+      "items": [
+        {
+          "code": "ASHRAE",
+          "name": "American Society of Heating, Refrigerating and Air-Conditioning Engineers",
+          "desc": "Global benchmarks for ventilation rates, outdoor fresh air intake, and Indoor Air Quality (IAQ)."
+        },
+        {
+          "code": "SNI & PUIL",
+          "name": "Indonesian National Standards & General Electrical Installation Guidelines",
+          "desc": "Stringent electrical safety, thermal circuit protection, earth grounding, and fire prevention rules."
+        },
+        {
+          "code": "SMACNA",
+          "name": "Sheet Metal and Air Conditioning Contractors' National Association",
+          "desc": "Rigorous duct fabrication standards, static pressure tolerance, and airtight leakage prevention."
+        },
+        {
+          "code": "ISO 9001",
+          "name": "Quality Management System Principles",
+          "desc": "Standardized execution checkpoints from site surveys to final airflow balancing, commissioning, and handover."
+        }
+      ]
+    },
+    "sectors": {
+      "eyebrow": "SECTORS WE SERVE",
+      "title": "Properties We Support Across Bali",
+      "subtitle": "Deep project versatility delivering the ideal engineering solution for every building archetype.",
+      "items": [
+        {
+          "title": "Luxury Private Villas & Residences",
+          "desc": "Concealed ducted AC systems, natural airflow integration, and silent acoustic isolation for master suites and home cinemas without aesthetic disruption."
+        },
+        {
+          "title": "Resorts, Hotels & Hospitality",
+          "desc": "Centralized VRF/chilled water systems, lobby/corridor fresh air supply, and continuous reliable MEP infrastructure for seamless guest comfort."
+        },
+        {
+          "title": "Restaurants, Beach Clubs & Commercial Kitchens",
+          "desc": "High-CFM kitchen hoods, commercial grease extraction, guest-zone spot cooling for semi-outdoor layouts, and sound mitigation."
+        },
+        {
+          "title": "Recording Studios, Clubs & Acoustic Spaces",
+          "desc": "High-STC soundproofing barriers, vibration dampeners for generators/chillers, and low-velocity silencer ducts for whisper-quiet environments."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "READY TO BUILD?",
+      "title": "Discuss Your MEP & Climate Engineering Project",
+      "subtitle": "Consult your architectural plans or schedule a comprehensive site evaluation with our senior engineers.",
+      "primaryBtn": "Chat on WhatsApp",
+      "secondaryBtn": "Explore Service Catalog"
+    }
   }
 }
 

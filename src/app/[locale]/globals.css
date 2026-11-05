@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 @theme {
+  --color-primary: #0B5C50;
   --color-teal: #0B5C50;
-  --color-brand: #0F766E;
+  --color-brand: #0B5C50;
   --color-gold: #F2C21B;
   --color-mist: #f8fafc;
   --color-mist-border: #e2e8f0;
-  --color-ink: #073D35;
+  --color-ink: #0B5C50;
 
   --color-teal-50: #f0fdfa;
   --color-teal-100: #ccfbf1;
@@ -15,10 +16,10 @@
   --color-teal-400: #2dd4bf;
   --color-teal-500: #14b8a6;
   --color-teal-600: #0d9488;
-  --color-teal-700: #0f766e;
-  --color-teal-800: #115e59;
-  --color-teal-900: #134e4a;
-  --color-teal-950: #042f2e;
+  --color-teal-700: #0B5C50;
+  --color-teal-800: #08493f;
+  --color-teal-900: #063730;
+  --color-teal-950: #04241f;
 
   --color-gold-50: #fefce8;
   --color-gold-100: #fef9c3;
@@ -61,3 +62,111 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Animasi Fade-In & Slide-Up saat Scroll (Intersection Observer) */
+.reveal-init {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animasi Hero Entrance */
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+.animate-scaleUp {
+  animation: scaleUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes heroScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-hero-fade {
+  animation: heroFadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-hero-image {
+  animation: heroScaleIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+/* Subtle Floating Glow / Frame Effect */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 1;
+  }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 6s ease-in-out infinite;
+}
+

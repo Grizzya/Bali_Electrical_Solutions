@@ -76,6 +76,11 @@
       ],
       "cta": "Book Now!"
     },
+    "dividerStrip": {
+      "tagline": "Air, Sound & MEP Engineering in Bali",
+      "consultation": "Konsultasikan Kebutuhan Proyek Anda",
+      "guarantee": "Standar Mutu & Garansi Resmi"
+    },
     "services": {
       "eyebrow": "LAYANAN KAMI",
       "title": "Solusi Rekayasa Lengkap 01 Hingga 06",
@@ -103,6 +108,48 @@
         {
           "title": "Jaminan Garansi Resmi & Sigap",
           "description": "Setiap pekerjaan instalasi disertai garansi hasil kerja nyata dan komitmen layanan purna jual yang sigap."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Wujudkan Kenyamanan & Keandalan Bangunan Anda Bersama Kami",
+      "subtitle": "Konsultasikan kebutuhan HVAC, ducting, peredam suara, atau instalasi MEP villa & bisnis Anda langsung dengan tim insinyur kami.",
+      "button": "Konsultasi Sekarang"
+    },
+    "testimonials": {
+      "eyebrow": "TESTIMONI KLIEN",
+      "title": "Dipercaya Properti & Bisnis Terbaik di Bali",
+      "subtitle": "Pengalaman nyata dari pemilik villa, resort, dan pengelola bisnis komersial di Bali.",
+      "items": [
+        {
+          "name": "Alexandre Mercier",
+          "role": "Owner, Luxury Cliff Villa Uluwatu",
+          "content": "Instalasi VRV dan ducting PIR sangat rapi dan presisi. Suhu ruangan selalu stabil dingin meski di tepi tebing yang panas dan berangin laut.",
+          "rating": 5
+        },
+        {
+          "name": "Ketut Suardika",
+          "role": "General Manager, Seminyak Boutique Resort",
+          "content": "Solusi peredam suara untuk ruang genset dan chiller sangat efektif. Tamu kami tidak pernah lagi terganggu kebisingan mesin.",
+          "rating": 5
+        },
+        {
+          "name": "Sarah Jenkins",
+          "role": "Managing Director, Canggu Dining Group",
+          "content": "Sistem exhaust kitchen hood dan ventilasi resto kami berjalan sempurna tanpa asap tebal keluar ke area makan tamu. Tim sangat profesional!",
+          "rating": 5
+        },
+        {
+          "name": "Budi Hartono",
+          "role": "Property Developer, Sanur Residential Complex",
+          "content": "Pekerjaan panel LVMDP, grounding, dan pemipaan MEP selesai tepat waktu dengan standar keamanan SNI yang ketat. Mitra terbaik di Bali.",
+          "rating": 5
+        },
+        {
+          "name": "Liam Henderson",
+          "role": "Villa Estate Manager, Ubud Retreat",
+          "content": "Sistem fresh air sirkulasi dan dehumidifier membuat ruangan villa bebas bau apek dan jamur meski kelembapan di Ubud sangat tinggi.",
+          "rating": 5
         }
       ]
     }
@@ -226,6 +273,214 @@
     "title": "Halaman Tidak Ditemukan",
     "description": "Maaf, halaman yang Anda cari tidak tersedia atau telah dipindahkan.",
     "backHome": "Kembali ke Beranda"
+  },
+  "servicesSection": {
+    "title": "Solusi Rekayasa Lengkap",
+    "subtitle": "Dari pendingin udara presisi hingga instalasi MEP terintegrasi, kami memastikan bangunan Anda beroperasi optimal di iklim Bali.",
+    "viewAllCta": "Konsultasikan Kebutuhan Proyek",
+    "clickHint": "Klik untuk melihat foto & spesifikasi",
+    "featuresTitle": "Cakupan & Keunggulan Layanan",
+    "ctaDetail": "Konsultasi Layanan Ini",
+    "modalClose": "Tutup"
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Layanan Rekayasa Teknik & MEP di Bali",
+      "description": "Daftar lengkap layanan rekayasa HVAC, sistem ducting, sirkulasi fresh air, ventilasi industri, akustik peredam bising, dan MEP mekanikal elektrikal."
+    },
+    "hero": {
+      "eyebrow": "KATALOG TEKNIK & MEP",
+      "title": "Spesifikasi & Layanan Lengkap",
+      "subtitle": "Informasi teknis mendalam dan standar rekayasa MEP, HVAC, ducting, ventilasi, dan akustik untuk bangunan komersial, villa mewah, dan resort di Bali."
+    },
+    "process": {
+      "eyebrow": "ALUR KERJA",
+      "title": "Metodologi Kerja Terstruktur",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Konsultasi & Survei Lapangan",
+          "desc": "Tim insinyur kami memeriksa kondisi fisik bangunan, beban termal, kelistrikan, serta tantangan cuaca pesisir Bali."
+        },
+        {
+          "num": "02",
+          "title": "Desain Rekayasa & Estimasi",
+          "desc": "Perancangan skema teknis, kalkulasi kapasitas CFM/BTU, estimasi daya, dan transparansi RAB tanpa biaya tersembunyi."
+        },
+        {
+          "num": "03",
+          "title": "Instalasi Presisi Tinggi",
+          "desc": "Pengerjaan sesuai standar SNI & ASHRAE dengan material anti-korosi iklim tropis dan supervisi ketat."
+        },
+        {
+          "num": "04",
+          "title": "Testing, Balancing & Garansi",
+          "desc": "Pengujian aliran udara, balancing tekanan, tes kebisingan decibel, commissioning resmi, dan garansi kerja."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Pertanyaan yang Sering Diajukan",
+      "items": [
+        {
+          "q": "Apakah Bali Electrical Solutions melayani proyek villa pribadi dan resort komersial?",
+          "a": "Ya, kami menangani proyek dari villa residensial mewah, restoran/beach club, resort bintang lima, hingga fasilitas komersial dan industri di seluruh Bali."
+        },
+        {
+          "q": "Mengapa sistem ducting di Bali membutuhkan perlakuan khusus?",
+          "a": "Tingkat kelembapan udara yang tinggi di Bali sangat berisiko memicu kondensasi (tetesan air) dan jamur. Kami menggunakan sistem isolasi termal tertutup berkualitas tinggi dan material anti-karat."
+        },
+        {
+          "q": "Berapa lama garansi yang diberikan untuk setiap instalasi?",
+          "a": "Setiap pekerjaan dilengkapi dengan garansi pemasangan resmi serta dukungan purna jual responsif untuk memastikan sistem beroperasi optimal tanpa gangguan."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Konsultasikan Proyek MEP & Tata Udara Anda",
+      "subtitle": "Tim teknisi kami siap membantu survei lokasi dan memberikan solusi teknis terbaik untuk properti Anda.",
+      "button": "Hubungi Tim Insinyur Kami"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Tentang Kami - Rekayasa Tata Udara & MEP di Bali",
+      "description": "Kenali Bali Electrical Solutions: mitra terpercaya rekayasa HVAC, ducting, ventilasi, peredam suara, dan MEP di Bali dengan standar teknik tinggi."
+    },
+    "hero": {
+      "title": "Tentang Kami",
+      "subtitle": "Mitra rekayasa teknik MEP dan tata udara di Bali yang menghadirkan sistem pendingin, ventilasi, dan kelistrikan yang tangguh, efisien, serta tahan iklim tropis."
+    },
+    "stats": [
+      { "value": "12+", "label": "Tahun Pengalaman", "desc": "Menangani proyek MEP & HVAC di Bali" },
+      { "value": "500+", "label": "Proyek Sukses", "desc": "Villa mewah, hotel & bangunan komersial" },
+      { "value": "35+", "label": "Teknisi & Insinyur", "desc": "Tim tersertifikasi & berpengalaman" },
+      { "value": "100%", "label": "Standar Teruji", "desc": "Kepatuhan SNI, PUIL, & ASHRAE" }
+    ],
+    "story": {
+      "eyebrow": "CERITA KAMI",
+      "title": "Menjawab Tantangan Iklim Ekstrem Tropis Bali",
+      "lead": "Bali memiliki keindahan tropis yang memikat, namun menyimpan tantangan teknik yang sangat nyata bagi daya tahan bangunan.",
+      "p1": "Kelembapan relatif yang kerap melampaui 85%, kadar garam tinggi dari angin laut di kawasan pesisir (Canggu, Uluwatu, Seminyak, Sanur), serta lonjakan suhu harian menuntut perlakuan khusus yang tidak dapat diselesaikan dengan instalasi standar biasa.",
+      "p2": "Banyak properti mengalami kondensasi ducting yang memicu jamur, korosi dini pada sirip outdoor AC, hingga ketidakseimbangan beban listrik yang menyebabkan trip berulang. Bali Electrical Solutions didirikan untuk menghadirkan solusi berbasis rekayasa presisi: menghitung heat load secara akurat, memilih material anti-korosi standar kelautan, serta menerapkan sistem insulasi tertutup yang teruji.",
+      "p3": "Dari villa privat berarsitektur terbuka hingga resort bintang lima dan fasilitas komersial berkapasitas besar, kami hadir sebagai satu tim terintegrasi yang bertanggung jawab penuh dari fase desain, instalasi, pengujian balancing, hingga perawatan berkala.",
+      "highlights": [
+        "Desain sistem disesuaikan spesifik dengan iklim mikro pesisir Bali",
+        "Kalkulasi beban termal (Heat Load) dan CFM udara presisi",
+        "Material tahan korosi air laut & insulasi anti-kondensasi",
+        "Satu penanggung jawab teknis dari perencanaan hingga serah terima"
+      ]
+    },
+    "visionMission": {
+      "eyebrow": "ARAH & KOMITMEN",
+      "title": "Visi dan Misi Kami",
+      "subtitle": "Prinsip dasar yang menggerakkan setiap insinyur dan teknisi kami dalam menyelesaikan proyek.",
+      "vision": {
+        "tag": "VISI KAMI",
+        "title": "Standar Keunggulan Rekayasa Tropis Terdepan",
+        "description": "Menjadi mitra rekayasa MEP dan tata udara paling tepercaya di Bali dan kawasan sekitarnya, yang dikenal atas integritas desain, efisiensi energi terukur, serta daya tahan instalasi jangka panjang."
+      },
+      "mission": {
+        "tag": "MISI KAMI",
+        "title": "Teknik Presisi Tanpa Kompromi",
+        "description": "Memberikan instalasi berkualitas tinggi sesuai standar keselamatan internasional, mengoptimalkan konsumsi daya energi, serta menyediakan dukungan teknis purna jual yang sigap dan bertanggung jawab."
+      }
+    },
+    "pillars": {
+      "eyebrow": "NILAI-NILAI UTAMA",
+      "title": "Pilar Keunggulan Rekayasa Kami",
+      "subtitle": "Setiap sistem yang kami rancang dan pasang berlandaskan enam prinsip kerja berikut.",
+      "items": [
+        {
+          "num": "01",
+          "title": "Presisi Kalkulasi Teknik",
+          "desc": "Tidak ada tebak-tebakan. Seluruh sistem HVAC dan ventilasi dihitung berdasarkan volume ruang, paparan radiasi matahari, dan tingkat okupansi menggunakan standar baku."
+        },
+        {
+          "num": "02",
+          "title": "Ketahanan Iklim Tropis & Laut",
+          "desc": "Kami menggunakan insulasi sel tertutup (closed-cell), pelapis anti-korosi pada koil kondensor, serta aksesoris tahan karat untuk melawan udara pesisir Bali."
+        },
+        {
+          "num": "03",
+          "title": "Efisiensi Energi Terukur",
+          "desc": "Kami memprioritaskan unit ber-inverter tinggi, konfigurasi VRF presisi, serta balancing aliran udara yang meminimalkan beban daya listrik dan biaya operasional."
+        },
+        {
+          "num": "04",
+          "title": "Kepatuhan Regulasi & Keamanan",
+          "desc": "Setiap instalasi kelistrikan mematuhi PUIL (Pedoman Umum Instalasi Listrik) dan standar SNI, meminimalkan risiko kebakaran dan kerusakan peralatan elektronik sensitif."
+        },
+        {
+          "num": "05",
+          "title": "Transparansi Spesifikasi & Biaya",
+          "desc": "Rencana Anggaran Biaya (RAB) disajikan secara rinci dengan spesifikasi merk dan material jelas, tanpa mark-up tersembunyi atau pemotongan mutu di lapangan."
+        },
+        {
+          "num": "06",
+          "title": "Garansi Resmi & Respon Sigap",
+          "desc": "Kami memberikan garansi hasil kerja nyata serta kesiapan tim teknisi lokal yang berdomisili di Bali untuk merespons kebutuhan purna jual dengan cepat."
+        }
+      ]
+    },
+    "standards": {
+      "eyebrow": "STANDAR TEKNIK",
+      "title": "Kepatuhan Kode & Sertifikasi Internasional",
+      "subtitle": "Kami beroperasi dengan pedoman standar industri yang diakui secara global:",
+      "items": [
+        {
+          "code": "ASHRAE",
+          "name": "American Society of Heating, Refrigerating and Air-Conditioning Engineers",
+          "desc": "Standar ventilasi, sirkulasi fresh air, serta kualitas udara dalam ruang (Indoor Air Quality - IAQ)."
+        },
+        {
+          "code": "SNI & PUIL",
+          "name": "Standar Nasional Indonesia & Pedoman Umum Instalasi Listrik",
+          "desc": "Kepatuhan ketat terhadap keselamatan kelistrikan, sistem pembumian (grounding), dan perlindungan lonjakan arus."
+        },
+        {
+          "code": "SMACNA",
+          "name": "Sheet Metal and Air Conditioning Contractors' National Association",
+          "desc": "Pedoman fabrikasi saluran ducting, kerapatan sambungan, dan pencegahan kebocoran tekanan udara."
+        },
+        {
+          "code": "ISO 9001",
+          "name": "Quality Management System Principles",
+          "desc": "Alur pengawasan mutu dari survei awal, instalasi di lapangan, pengujian (testing & commissioning), hingga serah terima."
+        }
+      ]
+    },
+    "sectors": {
+      "eyebrow": "SEKTOR LAYANAN",
+      "title": "Properti yang Kami Tangani di Seluruh Bali",
+      "subtitle": "Pengalaman lintas proyek memastikan solusi yang tepat guna untuk setiap fungsi bangunan.",
+      "items": [
+        {
+          "title": "Villa Mewah & Residensial Eksklusif",
+          "desc": "Pendingin tersembunyi (ducted concealed), integrasi ventilasi alami, serta sistem peredam suara kamar tidur dan home cinema tanpa merusak estetika interior."
+        },
+        {
+          "title": "Resort, Hotel & Hospitality",
+          "desc": "Sistem pendingin terpusat (VRF/Chiller), sirkulasi fresh air lorong dan lobi, serta sistem distribusi MEP yang stabil untuk kepuasan tamu non-stop."
+        },
+        {
+          "title": "Restoran, Beach Club & Dapur Komersial",
+          "desc": "Sistem exhaust hood berdaya hisap tinggi, filter penangkap minyak (grease filter), tata udara sejuk di area makan semi-terbuka, dan peredaman kebisingan."
+        },
+        {
+          "title": "Studio Rekaman, Klub Malam & Ruang Akustik",
+          "desc": "Peredam suara akustik desibel tinggi, peredam getaran mesin genset/chiller, dan desain saluran udara sunyi (low-noise duct silencer)."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "SIAP MEMULAI?",
+      "title": "Diskusikan Proyek MEP & Tata Udara Anda Bersama Kami",
+      "subtitle": "Konsultasikan denah bangunan atau jadwalkan survei lokasi langsung dengan insinyur senior Bali Electrical Solutions.",
+      "primaryBtn": "Konsultasi via WhatsApp",
+      "secondaryBtn": "Jelajahi Katalog Layanan"
+    }
   }
 }
 
