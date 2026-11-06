@@ -28,12 +28,12 @@ export const servicesData: {
     key: 'hvac',
     number: '01',
     title: {
-      id: 'Sistem HVAC & Tata Udara',
-      en: 'HVAC & Air Conditioning Systems'
+      id: 'HVAC',
+      en: 'HVAC'
     },
     summary: {
-      id: 'Perancangan, instalasi VRV/VRF, chiller, dan perawatan pendingin udara hemat energi untuk villa, resort, dan gedung komersial.',
-      en: 'Design, VRV/VRF installation, chillers, and energy-efficient climate control maintenance for villas, resorts, and commercial spaces.'
+      id: 'Perancangan, instalasi AC mainroom, VRV/VRF, chiller, dan perawatan pendingin udara hemat energi untuk villa, resort, dan ruang komersial.',
+      en: 'Design, mainroom AC, VRV/VRF installation, chillers, and energy-efficient climate control maintenance for villas, resorts, and commercial spaces.'
     },
     highlights: {
       id: ['VRV / VRF Multi-Zone', 'Chiller Plants', 'Smart Climate Control'],
@@ -45,12 +45,12 @@ export const servicesData: {
     key: 'ducting',
     number: '02',
     title: {
-      id: 'Fabrikasi & Instalasi Ducting',
-      en: 'Ducting Fabrication & Installation'
+      id: 'Ducting',
+      en: 'Ducting'
     },
     summary: {
-      id: 'PIR pre-insulated ducting dan BJLS galvanis presisi tinggi dengan isolasi termal anti-kondensasi tahan iklim pesisir.',
-      en: 'High-precision PIR pre-insulated and galvanized steel ductwork with tropical condensation-resistant thermal insulation.'
+      id: 'Fabrikasi dan instalasi PIR pre-insulated ducting serta BJLS galvanis presisi tinggi dengan isolasi termal anti-kondensasi tahan iklim pesisir.',
+      en: 'High-precision PIR pre-insulated and galvanized steel ductwork fabrication and installation with tropical condensation-resistant insulation.'
     },
     highlights: {
       id: ['PIR Ducting Ringan', 'BJLS Galvanis', 'Anti-Kondensasi Pesisir'],
@@ -62,11 +62,11 @@ export const servicesData: {
     key: 'freshAir',
     number: '03',
     title: {
-      id: 'Sirkulasi Fresh Air & Udara Bersih',
-      en: 'Fresh Air & Clean Air Circulation'
+      id: 'Fresh Air',
+      en: 'Fresh Air'
     },
     summary: {
-      id: 'Pasokan udara segar dengan filtrasi bertingkat dan dehumidifikasi untuk sirkulasi oksigen optimal serta pencegahan jamur.',
+      id: 'Pasokan udara segar mainroom dan ruangan dengan filtrasi bertingkat serta dehumidifikasi untuk sirkulasi oksigen optimal dan pencegahan jamur.',
       en: 'Multi-stage filtered fresh air intake with dehumidification to sustain oxygen levels, equalize pressure, and eliminate mold.'
     },
     highlights: {
@@ -79,12 +79,12 @@ export const servicesData: {
     key: 'ventilation',
     number: '04',
     title: {
-      id: 'Ventilasi Industri & Komersial',
-      en: 'Industrial & Commercial Ventilation'
+      id: 'Ventilation',
+      en: 'Ventilation'
     },
     summary: {
-      id: 'Sistem exhaust dapur komersial (kitchen hood), ruang genset, ruang mesin, dan basement parkir berkekuatan tinggi.',
-      en: 'High-performance commercial kitchen hoods, generator room ventilation, and basement exhaust fan systems.'
+      id: 'Sistem exhaust fan mainroom, sirkulasi udara toilet, dapur komersial (kitchen hood), ruang genset, dan basement parkir berkekuatan tinggi.',
+      en: 'High-performance mainroom exhaust fans, toilet air circulation, commercial kitchen hoods, generator room, and basement ventilation.'
     },
     highlights: {
       id: ['Kitchen Hood Exhaust', 'Ventilasi Genset', 'Basement Extraction'],
@@ -96,12 +96,12 @@ export const servicesData: {
     key: 'acoustic',
     number: '05',
     title: {
-      id: 'Peredam Suara & Akustik Ruang',
-      en: 'Acoustic & Soundproofing Solutions'
+      id: 'Acoustic & Soundproofing',
+      en: 'Acoustic & Soundproofing'
     },
     summary: {
-      id: 'Peredam kebisingan dan isolasi getaran untuk ruang genset, chiller, blower, dan sistem tata udara villa.',
-      en: 'Engineered noise attenuation silencers, vibration isolators, and soundproofing for chiller plants and generators.'
+      id: 'Peredam suara akustik (soundproofing) dan isolasi getaran untuk night club, studio, ruang genset, chiller, dan sistem tata udara villa.',
+      en: 'Engineered acoustic soundproofing, noise attenuation silencers, and vibration isolators for nightclubs, chiller plants, and generators.'
     },
     highlights: {
       id: ['Duct Sound Attenuators', 'Vibration Isolators', 'Ruang Mesin Senyap'],
@@ -113,12 +113,12 @@ export const servicesData: {
     key: 'mep',
     number: '06',
     title: {
-      id: 'Solusi MEP (Mekanikal, Elektrikal & Plumbing)',
-      en: 'MEP (Mechanical, Electrical & Plumbing) Solutions'
+      id: 'MEP Solutions',
+      en: 'MEP Solutions'
     },
     summary: {
-      id: 'Panel listrik LVMDP, distribusi daya, grounding penangkal petir, serta pemipaan air bersih dan kotor berstandar SNI.',
-      en: 'Electrical distribution panels, grounding, lightning protection, and comprehensive water plumbing infrastructure.'
+      id: 'Solusi Mekanikal, Elektrikal & Plumbing: panel listrik LVMDP, distribusi daya, grounding penangkal petir, serta pemipaan air berstandar SNI.',
+      en: 'Mechanical, Electrical & Plumbing solutions: LVMDP distribution panels, grounding, lightning protection, and comprehensive water plumbing.'
     },
     highlights: {
       id: ['Panel Distribusi LVMDP', 'Grounding & Petir', 'Sistem Plumbing SNI'],

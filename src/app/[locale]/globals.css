@@ -82,6 +82,12 @@ body {
   animation-play-state: paused;
 }
 
+.animate-stats-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 18s linear infinite;
+}
+
 /* Animasi Fade-In & Slide-Up saat Scroll (Intersection Observer) */
 .reveal-init {
   opacity: 0;

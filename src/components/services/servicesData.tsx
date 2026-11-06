@@ -145,7 +145,7 @@ export const CONTENT: Record<string, LocaleContent> = {
     services: [
       {
         key: "hvac",
-        name: "HVAC & Air Conditioning",
+        name: "HVAC",
         short: "High-capacity air conditioning for mainrooms, villas, hotels, and commercial spaces.",
         points: [
           "Heat load calculation and BTU/CFM equipment sizing",
@@ -155,7 +155,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "ducting",
-        name: "Ducting System",
+        name: "Ducting",
         short: "Custom PIR & galvanized BJLS duct runs, airtight and insulated against condensation.",
         points: [
           "Precision fabrication and on-site ducting installation",
@@ -165,7 +165,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "fresh",
-        name: "Fresh Air System",
+        name: "Fresh Air",
         short: "Filtered outdoor air supply & circulation for enclosed venues, clubs, and suites.",
         points: [
           "Mainroom fresh air intake units & heat recovery (HRV/ERV)",
@@ -175,7 +175,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "vent",
-        name: "Ventilation & Exhaust",
+        name: "Ventilation",
         short: "Heavy-duty extraction for mainrooms, commercial kitchens, restrooms, and plant rooms.",
         points: [
           "Mainroom exhaust fans, toilet air circulation & inline blowers",
@@ -219,7 +219,7 @@ export const CONTENT: Record<string, LocaleContent> = {
     services: [
       {
         key: "hvac",
-        name: "HVAC & Air Conditioner",
+        name: "HVAC",
         short: "Sistem pendingin udara kapasitas besar untuk mainroom, vila, hotel, dan ruang komersial.",
         points: [
           "Kalkulasi beban panas (heat load) dan pemilihan kapasitas BTU/PK",
@@ -229,7 +229,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "ducting",
-        name: "Sistem Ducting",
+        name: "Ducting",
         short: "Fabrikasi dan instalasi saluran udara PIR & BJLS custom, rapat, dan anti-kondensasi.",
         points: [
           "Fabrikasi presisi dan pemasangan sistem ducting di lokasi proyek",
@@ -239,7 +239,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "fresh",
-        name: "Fresh Air & Sirkulasi Udara",
+        name: "Fresh Air",
         short: "Pasokan udara segar tersaring untuk mainroom tertutup, night club, dan kamar vila.",
         points: [
           "Instalasi Fresh Air Mainroom, HRV/ERV, dan sirkulasi oksigen",
@@ -249,7 +249,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "vent",
-        name: "Ventilasi & Exhaust Fan",
+        name: "Ventilation",
         short: "Pembuangan udara pengap, asap, dan panas untuk mainroom, dapur, toilet, dan ruang mesin.",
         points: [
           "Instalasi Exhaust Fan Mainroom, Air Circulation Toilet & sistem inline",
@@ -259,7 +259,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "acoustic",
-        name: "Akustik & Peredam Suara",
+        name: "Acoustic & Soundproofing",
         short: "Peredam kebisingan desibel tinggi untuk night club, studio, vila, dan ruang genset.",
         points: [
           "Soundproofing dinding, plafon, dan partisi akustik ruang hiburan",
@@ -269,7 +269,7 @@ export const CONTENT: Record<string, LocaleContent> = {
       },
       {
         key: "mep",
-        name: "Solusi MEP",
+        name: "MEP Solutions",
         short: "Mekanikal, elektrikal, dan plumbing terintegrasi di bawah satu tim penanggung jawab.",
         points: [
           "Perakitan panel listrik LVMDP, distribusi daya 3-phase & grounding petir",

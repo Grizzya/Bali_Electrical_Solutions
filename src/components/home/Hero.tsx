@@ -87,9 +87,46 @@ export default function Hero() {
       </section>
 
      
-      <section className="bg-[#0B5C50] text-white py-6 lg:py-8 border-t border-b border-[#0B5C50]/20 shrink-0">
-        <div className="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 md:divide-x md:divide-white/20 items-center">
+      <section className="bg-[#0B5C50] text-white py-5 lg:py-8 border-t border-b border-[#0B5C50]/20 shrink-0 overflow-hidden">
+        {/* Mobile: Infinite Running Marquee seperti section Review / Testimoni */}
+        <div className="md:hidden relative w-full overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_32px,_black_calc(100%-32px),transparent_100%)]">
+          <style dangerouslySetInnerHTML={{ __html: `
+            @keyframes heroStatsMarquee {
+              0% { transform: translate3d(0, 0, 0); }
+              100% { transform: translate3d(-50%, 0, 0); }
+            }
+            .hero-stats-track {
+              display: flex;
+              width: max-content;
+              animation: heroStatsMarquee 16s linear infinite;
+              will-change: transform;
+            }
+            .hero-stats-track:hover,
+            .hero-stats-track:active {
+              animation-play-state: paused;
+            }
+          `}} />
+
+          <div className="hero-stats-track flex items-center">
+            {[...stats, ...stats, ...stats, ...stats].map((item, idx) => (
+              <div
+                key={idx}
+                className="flex items-center gap-3.5 px-7 border-r border-white/20 shrink-0 select-none"
+              >
+                <span className="text-3xl font-extrabold tracking-tight text-white font-heading shrink-0">
+                  {item.value}
+                </span>
+                <span className="text-xs font-medium text-white/90 leading-tight max-w-[115px]">
+                  {item.label}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Tablet & Desktop: 4 kolom statis */}
+        <div className="hidden md:block max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12">
+          <div className="grid grid-cols-4 divide-x divide-white/20 items-center">
             {stats.map((item, idx) => (
               <div
                 key={idx}

@@ -9,7 +9,7 @@ export default function AboutHero() {
 
   return (
     <section
-      className="relative overflow-hidden flex items-center min-h-[40vh] md:min-h-[45vh] py-12 md:py-16"
+      className="relative overflow-hidden flex items-center min-h-[26vh] md:min-h-[32vh] py-10 md:py-14"
       style={{ background: C.teal, color: '#fff' }}
     >
       <CircuitBackdrop />
@@ -18,9 +18,6 @@ export default function AboutHero() {
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight">
           {t('title')}
         </h1>
-        <p className="mt-4 max-w-2xl text-base sm:text-lg text-white/85 leading-relaxed">
-          {t('subtitle')}
-        </p>
       </div>
     </section>
   );

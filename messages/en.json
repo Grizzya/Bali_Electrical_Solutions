@@ -168,17 +168,17 @@
     "ctaDetail": "Inquire About This Service",
     "items": {
       "hvac": {
-        "title": "HVAC & Air Conditioning",
-        "description": "Design, installation, and maintenance of high-efficiency air conditioning systems (VRV/VRF, chillers, concealed ducted units) for premium residential and commercial spaces.",
+        "title": "HVAC",
+        "description": "Design, installation, and maintenance of high-efficiency air conditioning systems (mainroom AC, VRV/VRF, chillers, concealed ducted units) for premium residential and commercial spaces.",
         "features": [
-          "Energy-saving Multi-Zone VRV / VRF systems",
+          "Energy-saving Multi-Zone VRV / VRF & Mainroom AC systems",
           "Water-cooled & Air-cooled Chillers",
           "Precise climate & humidity management",
           "Comprehensive preventive maintenance & emergency care"
         ]
       },
       "ducting": {
-        "title": "Ducting Fabrication & Installation",
+        "title": "Ducting",
         "description": "Precision fabrication and installation of PIR pre-insulated ducting, galvanized steel (BJLS) ductwork, and spiral ducts with superior thermal vapor barrier insulation.",
         "features": [
           "PIR Pre-Insulated & Galvanized BJLS Ducting",
@@ -188,38 +188,38 @@
         ]
       },
       "freshAir": {
-        "title": "Fresh Air & Circulation Systems",
+        "title": "Fresh Air",
         "description": "Filtered outdoor fresh air intake systems to sustain oxygen circulation, maintain positive room pressure, and eliminate mold/mildew in air-conditioned spaces.",
         "features": [
-          "Heat / Energy Recovery Ventilators (HRV / ERV)",
+          "Mainroom Fresh Air & Heat / Energy Recovery Ventilators (HRV / ERV)",
           "Multi-stage air filtration (Pre-filter, Carbon & HEPA)",
           "Integrated dehumidification for incoming humid air",
           "Elimination of stuffiness and moisture-induced odors"
         ]
       },
       "ventilation": {
-        "title": "Industrial & Commercial Ventilation",
-        "description": "Heavy-duty exhaust and ventilation systems for commercial hotel and restaurant kitchens (hoods), generator rooms, basements, and laundry facilities.",
+        "title": "Ventilation",
+        "description": "Heavy-duty exhaust and ventilation systems for mainrooms, commercial restrooms, hotel and restaurant kitchens (hoods), generator rooms, and basements.",
         "features": [
+          "Mainroom Exhaust Fans & Toilet Air Circulation",
           "Commercial kitchen hoods with smoke/grease filtration",
           "High-volume genset & transformer room ventilation",
-          "Carpark basement & commercial restroom exhaust",
           "High-temperature thermal dissipation systems"
         ]
       },
       "acoustic": {
-        "title": "Acoustic Attenuation & Soundproofing",
-        "description": "Engineered noise reduction and vibration dampening for chiller plants, generator enclosures, rooftop fans, and luxury villa mechanical rooms.",
+        "title": "Acoustic & Soundproofing",
+        "description": "Engineered acoustic soundproofing, noise reduction, and vibration dampening for nightclubs, beach clubs, chiller plants, generator enclosures, and villa mechanical rooms.",
         "features": [
+          "High-STC acoustic wall & ceiling soundproofing for venues",
           "In-line duct sound attenuators (Silencers)",
-          "Acoustic paneling & equipment enclosures",
           "Anti-vibration spring and neoprene mountings",
           "Decibel compliance testing & acoustic consulting"
         ]
       },
       "mep": {
-        "title": "MEP (Mechanical, Electrical & Plumbing)",
-        "description": "Full electrical panel fabrication, low/medium voltage power distribution, lightning protection grounding, and domestic clean/wastewater plumbing systems.",
+        "title": "MEP Solutions",
+        "description": "Integrated Mechanical, Electrical & Plumbing solutions: electrical panel fabrication, low/medium voltage power distribution, lightning protection grounding, and domestic water plumbing systems.",
         "features": [
           "Main distribution boards (LVMDP) & custom sub-panels",
           "Power cabling, load balancing & lightning protection",
@@ -284,8 +284,11 @@
     "title": "Our Engineering Services",
     "subtitle": "From precision HVAC to integrated MEP solutions, we ensure your building operates flawlessly in Bali's tropical climate.",
     "viewAllCta": "Consult Project Needs",
-    "clickHint": "Click to view photos & specs",
+    "clickHint": "Click a card to view details & specs",
+    "serviceBadge": "Service",
+    "descriptionTitle": "Technical Overview & Specifications",
     "featuresTitle": "Scope & Key Highlights",
+    "viewFullPage": "View Services Page",
     "ctaDetail": "Inquire About This Service",
     "modalClose": "Close"
   },

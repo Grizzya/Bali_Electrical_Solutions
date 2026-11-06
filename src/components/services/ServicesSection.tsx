@@ -16,72 +16,78 @@ export default function ServicesSection() {
 
   return (
     <section id="services" className="scroll-mt-20">
-      {/* ---------- Mobile: stacked, picture on top of text ---------- */}
-      <div className="px-5 py-14 md:hidden">
-        <div className="space-y-12">
+      {/* ---------- Mobile: stacked, dipisahkan garis (divide-y) ---------- */}
+      <div className="px-5 py-10 md:hidden">
+        <div className="divide-y divide-[#0B5C50]/15">
           {t.services.map((s, i) => (
-            <article key={s.key} id={`${s.key}-m`} className="scroll-mt-20">
+            <article
+              key={s.key}
+              id={`${s.key}-m`}
+              className="scroll-mt-20 py-10 first:pt-0 last:pb-0"
+            >
               <ServiceVisual k={s.key} index={i} alt={s.name} />
-              <h3 className="mt-6 text-2xl font-semibold tracking-tight">
-                {s.name}
-              </h3>
-              <p className="mt-3 text-base leading-relaxed text-black/65">
-                {d.items[s.key].desc}
-              </p>
+              <div className="pt-6">
+                <h3 className="text-2xl font-semibold tracking-tight text-[#0B5C50]">
+                  {s.name}
+                </h3>
+                <p className="mt-3 text-base leading-relaxed text-black/65">
+                  {d.items[s.key].desc}
+                </p>
 
-              <ul className="mt-5 space-y-2.5">
-                {s.points.map((p) => (
-                  <li key={p} className="flex gap-2.5 text-sm leading-snug">
-                    <Bolt className="mt-0.5 h-3.5 w-3.5 shrink-0" style={{ color: C.gold }} />
-                    {p}
-                  </li>
-                ))}
-              </ul>
+                <ul className="mt-5 space-y-2.5">
+                  {s.points.map((p) => (
+                    <li key={p} className="flex gap-2.5 text-sm leading-snug">
+                      <Bolt className="mt-0.5 h-3.5 w-3.5 shrink-0" style={{ color: C.gold }} />
+                      {p}
+                    </li>
+                  ))}
+                </ul>
 
-              <div className="mt-5 flex flex-wrap gap-2">
-                {d.items[s.key].best.map((b) => (
-                  <span
-                    key={b}
-                    className="rounded-full px-3 py-1 text-xs font-medium"
-                    style={{ background: C.mist, color: C.teal }}
-                  >
-                    {b}
-                  </span>
-                ))}
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {d.items[s.key].best.map((b) => (
+                    <span
+                      key={b}
+                      className="rounded-full px-3 py-1 text-xs font-medium"
+                      style={{ background: C.mist, color: C.teal }}
+                    >
+                      {b}
+                    </span>
+                  ))}
+                </div>
+
+                <a
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold focus:outline-none focus-visible:underline"
+                  style={{ color: C.teal }}
+                >
+                  {t.learn}
+                  <Arrow />
+                </a>
               </div>
-
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center gap-2 text-sm font-semibold focus:outline-none focus-visible:underline"
-                style={{ color: C.teal }}
-              >
-                {t.learn}
-                <Arrow />
-              </a>
             </article>
           ))}
         </div>
       </div>
 
-      {/* ---------- Desktop: zigzag rows, picture left/right alternating ---------- */}
-      <div className="mx-auto hidden max-w-6xl px-8 py-24 md:block">
-        <div className="space-y-28">
+      {/* ---------- Desktop: zigzag rows, dipisahkan garis (divide-y) ---------- */}
+      <div className="mx-auto hidden max-w-6xl px-8 py-20 md:block">
+        <div className="divide-y divide-[#0B5C50]/15">
           {t.services.map((s, i) => {
             const flip = i % 2 === 1;
             return (
               <article
                 key={s.key}
                 id={s.key}
-                className="grid scroll-mt-24 grid-cols-2 items-center gap-16"
+                className="grid scroll-mt-24 grid-cols-2 items-center gap-16 py-20 first:pt-0 last:pb-0"
               >
                 <div className={flip ? "order-2" : "order-1"}>
                   <ServiceVisual k={s.key} index={i} alt={s.name} />
                 </div>
 
                 <div className={flip ? "order-1" : "order-2"}>
-                  <h3 className="text-4xl font-semibold tracking-tight">
+                  <h3 className="text-4xl font-semibold tracking-tight text-[#0B5C50]">
                     {s.name}
                   </h3>
                   <p className="mt-4 max-w-md text-lg leading-relaxed text-black/65">

@@ -168,17 +168,17 @@
     "ctaDetail": "Konsultasikan Kebutuhan Ini",
     "items": {
       "hvac": {
-        "title": "Sistem HVAC & Pendingin",
-        "description": "Perancangan, instalasi, dan perawatan sistem pendingin udara (AC VRV/VRF, chiller, split duct) dengan efisiensi energi maksimal untuk kenyamanan hunian dan komersial.",
+        "title": "HVAC",
+        "description": "Perancangan, instalasi, dan perawatan sistem pendingin udara (AC mainroom, VRV/VRF, chiller, split duct) dengan efisiensi energi maksimal untuk kenyamanan hunian dan komersial.",
         "features": [
-          "Sistem Multi-Zone VRV / VRF hemat energi",
+          "Sistem Multi-Zone VRV / VRF & AC Mainroom",
           "Water-cooled & Air-cooled Chillers",
           "Kontrol suhu & kelembapan presisi",
           "Perawatan berkala & perbaikan darurat"
         ]
       },
       "ducting": {
-        "title": "Fabrikasi & Sistem Ducting",
+        "title": "Ducting",
         "description": "Fabrikasi presisi dan pemasangan saluran udara berbahan PIR (Polyisocyanurate), BJLS (seng), serta spiral duct dengan isolasi termal anti kondensasi.",
         "features": [
           "Fabrikasi PIR Duct & Galvanized BJLS Duct",
@@ -188,38 +188,38 @@
         ]
       },
       "freshAir": {
-        "title": "Fresh Air & Sirkulasi Bersih",
-        "description": "Penyediaan pasokan udara segar luar ruangan yang tersaring untuk menjaga sirkulasi oksigen, menyeimbangkan tekanan ruangan, dan mencegah jamur di ruangan ber-AC.",
+        "title": "Fresh Air",
+        "description": "Penyediaan pasokan udara segar mainroom dan luar ruangan yang tersaring untuk menjaga sirkulasi oksigen, menyeimbangkan tekanan ruangan, dan mencegah jamur di ruangan ber-AC.",
         "features": [
-          "Heat Recovery Ventilator (HRV / ERV)",
+          "Fresh Air Mainroom & Heat Recovery Ventilator (HRV / ERV)",
           "Filtrasi udara bertingkat (Pre-filter, Carbon & HEPA)",
           "Pengontrol kelembapan udara masuk (Dehumidification)",
           "Mencegah aroma apak & pertumbuhan jamur di area lembap"
         ]
       },
       "ventilation": {
-        "title": "Ventilasi Industri & Komersial",
-        "description": "Sistem exhaust berkekuatan tinggi untuk dapur restoran/hotel (kitchen hood), ruang genset, basement parkir, laundry, dan area industri.",
+        "title": "Ventilation",
+        "description": "Sistem exhaust fan mainroom, sirkulasi udara toilet, dapur restoran/hotel (kitchen hood), ruang genset, basement parkir, dan area komersial.",
         "features": [
+          "Exhaust Fan Mainroom & Air Circulation Toilet",
           "Kitchen Hood Exhaust & Ecology Unit penghilang asap",
           "Ventilasi ruang genset & ruang mesin trafo",
-          "Exhaust fan basement & toilet komersial",
-          "Sistem pembuangan panas intensif"
+          "Sistem pembuangan udara pengap & panas intensif"
         ]
       },
       "acoustic": {
-        "title": "Peredam Suara & Akustik Ruang",
-        "description": "Solusi peredam kebisingan dan isolasi getaran untuk ruang chiller, genset, blower fan, serta ruang genset vila agar lingkungan tetap tenang dan nyaman.",
+        "title": "Acoustic & Soundproofing",
+        "description": "Solusi peredam suara akustik (soundproofing) dan isolasi getaran untuk night club, beach club, ruang chiller, genset, serta sistem tata udara vila agar lingkungan tetap tenang dan nyaman.",
         "features": [
+          "Soundproofing dinding & plafon ruang hiburan / night club",
           "Silencer saluran ducting (Acoustic Attenuator)",
-          "Soundproofing dinding ruang mesin & genset",
-          "Vibration isolator mounting untuk pompa & kompresor",
+          "Vibration isolator mounting untuk mesin, genset & chiller",
           "Uji decibel & kepatuhan batas kebisingan lingkungan"
         ]
       },
       "mep": {
-        "title": "MEP (Mekanikal, Elektrikal & Plumbing)",
-        "description": "Solusi terintegrasi untuk instalasi panel listrik, distribusi daya tegangan rendah/menengah, grounding penangkal petir, serta sistem pipa air bersih dan kotor.",
+        "title": "MEP Solutions",
+        "description": "Solusi Mekanikal, Elektrikal & Plumbing terintegrasi untuk instalasi panel listrik, distribusi daya tegangan rendah/menengah, grounding penangkal petir, serta sistem pipa air bersih dan kotor.",
         "features": [
           "Perakitan panel distribusi utama (LVMDP) & sub-panel",
           "Instalasi kabel daya, grounding & penangkal petir",
@@ -284,8 +284,11 @@
     "title": "Solusi Rekayasa Lengkap",
     "subtitle": "Dari pendingin udara presisi hingga instalasi MEP terintegrasi, kami memastikan bangunan Anda beroperasi optimal di iklim Bali.",
     "viewAllCta": "Konsultasikan Kebutuhan Proyek",
-    "clickHint": "Klik untuk melihat foto & spesifikasi",
+    "clickHint": "Klik kartu untuk melihat detail & spesifikasi",
+    "serviceBadge": "Layanan",
+    "descriptionTitle": "Penjelasan & Spesifikasi Teknis",
     "featuresTitle": "Cakupan & Keunggulan Layanan",
+    "viewFullPage": "Lihat Halaman Layanan",
     "ctaDetail": "Konsultasi Layanan Ini",
     "modalClose": "Tutup"
   },
