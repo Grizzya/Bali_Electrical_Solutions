@@ -25,7 +25,7 @@ export default async function Services() {
 
   return (
     <section id="services" className="bg-white py-14 lg:py-20 overflow-hidden">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-12">
         <ScrollReveal>
           <ServicesShowcase services={services} servicesMap={servicesMap} />
         </ScrollReveal>

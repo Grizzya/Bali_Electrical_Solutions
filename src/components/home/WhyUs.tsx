@@ -21,7 +21,7 @@ export default async function WhyUs() {
 
   return (
     <section id="why-us" className="bg-[#0B5C50] text-white overflow-hidden">
-      <div className="mx-auto max-w-[1200px] px-4 py-14 md:px-6 md:py-[88px]">
+      <div className="mx-auto max-w-[1440px] px-5 py-14 sm:px-8 lg:px-12 md:py-[88px]">
         <ScrollReveal>
           <h2 className="text-center text-3xl font-extrabold text-white md:text-[38px] tracking-tight">
             {t("title")}

@@ -1,17 +1,32 @@
 export const SITE_CONFIG = {
   name: 'Bali Electrical Solutions',
+  legalName: 'Bali Electrical',
   siteUrl: 'https://balielectricalsolutions.com',
-  whatsappNumber: '+6281234567890',
-  whatsappDisplay: '+62 812-3456-7890',
-  whatsappUrl: 'https://wa.me/6281234567890',
-  email: 'info@balielectricalsolutions.com',
-  emailMailto: 'mailto:info@balielectricalsolutions.com',
-  phone: '+62 361 789 0123',
+  whatsappNumber: '+6282147237047',
+  whatsappDisplay: '+62 821-4723-7047',
+  whatsappUrl: 'https://wa.me/6282147237047',
+  email: 'balielectrical@gmail.com',
+  emailMailto: 'mailto:balielectrical@gmail.com',
+  phone: '082 147 237 047',
   address: {
-    street: 'Jl. Bypass Ngurah Rai No. 88, Sanur',
-    city: 'Denpasar Selatan, Bali 80228',
+    street: 'Badung, Bali (Layanan Canggu, Berawa, Seminyak, Uluwatu & Seluruh Bali)',
+    city: 'Badung, Bali',
     country: 'Indonesia'
   },
+  serviceAreas: [
+    'Canggu',
+    'Berawa',
+    'Seminyak',
+    'Kuta',
+    'Uluwatu',
+    'Jimbaran',
+    'Nusa Dua',
+    'Sanur',
+    'Denpasar',
+    'Ubud',
+    'Badung',
+    'Gianyar'
+  ],
   operatingHours: {
     id: 'Senin - Sabtu: 08:00 - 17:00 WITA (Layanan Darurat 24/7)',
     en: 'Mon - Sat: 08:00 AM - 05:00 PM WITA (24/7 Emergency Service)'

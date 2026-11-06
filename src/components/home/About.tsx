@@ -36,7 +36,7 @@ export default async function About() {
 
   return (
     <section id="about" className="bg-white overflow-hidden">
-      <div className="mx-auto grid max-w-[1200px] items-center gap-12 px-4 py-14 md:grid-cols-2 md:gap-14 md:px-6 md:py-[88px]">
+      <div className="mx-auto grid max-w-[1440px] items-center gap-12 px-5 py-14 sm:px-8 lg:px-12 md:grid-cols-2 md:gap-16 md:py-[88px]">
         {/* ===== Foto dengan ScrollReveal ===== */}
         <ScrollReveal delay={100} className="md:hidden">
           <Photo

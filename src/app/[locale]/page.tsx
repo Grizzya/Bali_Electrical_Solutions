@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import './globals.css';
 import Header from '@/components/layout/Header';
@@ -8,12 +9,29 @@ import WhyUs from '@/components/home/WhyUs';
 import Testimoni from '@/components/home/Testimoni';
 import CtaBanner from '@/components/home/CtaBanner';
 import Footer from '@/components/layout/Footer';
+import { constructMetadata } from '@/lib/seo';
+
+interface HomePageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: HomePageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'meta' });
+
+  return constructMetadata({
+    title: t('title'),
+    description: t('description'),
+    path: '',
+    locale,
+  });
+}
 
 export default async function HomePage({
   params
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+}: HomePageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
 

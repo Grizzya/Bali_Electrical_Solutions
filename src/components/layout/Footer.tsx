@@ -13,7 +13,7 @@ export default function Footer() {
       {/* Ambient glow with brand colors: Teal (#0B5C50) and Warm Yellow (#F2C21B) */}
       <div className="absolute -bottom-28 left-1/2 -translate-x-1/2 w-[800px] sm:w-[1100px] h-[380px] sm:h-[460px] bg-gradient-to-t from-[#F2C21B]/25 via-[#0B5C50]/35 to-transparent rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 pt-16 sm:pt-20 pb-8 flex flex-col justify-between min-h-[460px] sm:min-h-[520px]">
+      <div className="relative z-10 max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 pt-16 sm:pt-20 pb-8 flex flex-col justify-between min-h-[460px] sm:min-h-[520px]">
         {/* Top Row: Left Navigation & Right Contact/Socials */}
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
           {/* Left Column: Vertical Navigation */}
@@ -100,17 +100,18 @@ export default function Footer() {
                 </a>
               </p>
               <p>
+                <span className="text-white/60">Phone / WA: </span>
                 <a
                   href={SITE_CONFIG.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#F2C21B] transition-colors"
                 >
-                  {SITE_CONFIG.whatsappDisplay}
+                  {SITE_CONFIG.phone} ({SITE_CONFIG.whatsappDisplay})
                 </a>
               </p>
               <p className="text-white/70">
-                {SITE_CONFIG.address.street}, Bali, Indonesia
+                {SITE_CONFIG.address.street}
               </p>
             </div>
           </div>

@@ -22,7 +22,7 @@ export default function Testimoni({ eyebrow, title, subtitle, items }: Testimoni
 
   return (
     <section id="testimonials" className="bg-white py-16 lg:py-24 overflow-hidden border-t border-slate-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
+      <div className="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12 mb-12 text-center">
         <p className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#0B5C50]">
           {eyebrow}
         </p>

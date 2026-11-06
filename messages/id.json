@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Bali Electrical Solutions - Solusi Teknik Tata Udara, Kelistrikan & MEP di Bali",
-    "description": "Jasa rekayasa teknik terpercaya di Bali untuk sistem HVAC, ducting, fresh air intake, ventilasi industri, akustik peredam, dan MEP mekanikal elektrikal."
+    "title": "Bali Electrical Solutions - Kontraktor HVAC, Ducting, Fresh Air, Ventilasi, Akustik & MEP di Bali",
+    "description": "Kontraktor spesialis HVAC, fabrikasi ducting AC, sirkulasi fresh air, exhaust fan ventilasi, peredam suara akustik (soundproofing), dan instalasi MEP untuk villa, resort, beach club, night club, dan komersial di Canggu, Badung & seluruh Bali."
   },
   "nav": {
     "home": "Beranda",
@@ -13,12 +13,12 @@
     "consultation": "Konsultasi Gratis"
   },
   "hero": {
-    "badge": "Mitra Rekayasa Teknik & Tata Udara Profesional di Bali",
+    "badge": "HVAC • Ducting • Fresh Air • Ventilation • Acoustic & Soundproofing • MEP Solutions",
     "titleLine1": "Udara bersih,",
     "titleLine2": "ruang nyaman,",
     "titleLine3": "sistem andal.",
-    "title": "Solusi Tata Udara, MEP & Kelistrikan Berkualitas Tinggi",
-    "subtitle": "Bali Electrical Solutions menangani HVAC, ducting, ventilasi, peredam suara, dan MEP untuk villa, hotel, dan bangunan komersial di Bali.",
+    "title": "Solusi Tata Udara, MEP & Kelistrikan Berkualitas Tinggi di Bali",
+    "subtitle": "Bali Electrical Solutions menangani rekayasa HVAC, sistem ducting, fresh air intake, ventilasi exhaust, peredam suara akustik, dan MEP untuk villa mewah, resort, restoran, beach club, hingga night club di seluruh Bali.",
     "ctaPrimary": "Minta Penawaran",
     "ctaSecondary": "Lihat Layanan",
     "imagePlaceholder": "[FOTO UTAMA: TEKNISI / PROYEK HVAC]",
@@ -35,13 +35,13 @@
   },
   "about": {
     "badge": "ABOUT US",
-    "title": "Solusi mekanikal & elektrikal yang andal untuk setiap bangunan di Bali",
-    "description": "Dari villa hingga properti komersial, kami menangani perencanaan, instalasi, dan perawatan sistem udara, ventilasi, akustik, serta MEP dengan pengerjaan rapi dan terukur.",
+    "title": "Solusi HVAC, tata udara & MEP terintegrasi untuk setiap bangunan di Bali",
+    "description": "Dari villa privat di Uluwatu hingga night club, beach club, dan properti komersial di Berawa Canggu, kami menangani perencanaan, instalasi, serta perawatan sistem AC, ducting, fresh air, ventilasi, akustik, dan MEP dengan presisi tinggi.",
     "bullets": [
-      "Teknisi berpengalaman dan terlatih",
-      "Garansi kepuasan di setiap layanan",
-      "Dipercaya villa, hotel, dan bisnis",
-      "Jadwal fleksibel dan tepat waktu"
+      "Teknisi berpengalaman dan tersertifikasi",
+      "Garansi kepuasan dan standar mutu di setiap proyek",
+      "Dipercaya villa, hotel, restoran, dan night club di Bali",
+      "Pengerjaan rapi, terukur, dan tepat waktu"
     ],
     "cta": "Book Now!",
     "badgeMEP": "MEP",
@@ -63,28 +63,28 @@
   "Home": {
     "about": {
       "eyebrow": "ABOUT US",
-      "title": "Solusi mekanikal & elektrikal yang andal untuk setiap bangunan di Bali",
-      "description": "Dari villa hingga properti komersial, kami menangani perencanaan, instalasi, dan perawatan sistem udara, ventilasi, akustik, serta MEP dengan pengerjaan rapi dan terukur.",
-      "imageAlt": "Tentang Bali Electrical Solutions",
+      "title": "Solusi HVAC, tata udara & MEP yang andal untuk setiap bangunan di Bali",
+      "description": "Dari villa mewah hingga night club, restoran, dan properti komersial di Canggu, Seminyak, dan seluruh Bali, kami menangani perencanaan, fabrikasi ducting, instalasi AC, sirkulasi fresh air, ventilasi exhaust, peredam akustik, serta sistem MEP dengan pengerjaan rapi dan terukur.",
+      "imageAlt": "Tentang Bali Electrical Solutions - Kontraktor HVAC Ducting & MEP Bali",
       "badgeTop": "MEP",
       "badgeBottom": "Integrated Team",
       "points": [
-        "Teknisi berpengalaman dan terlatih",
-        "Garansi kepuasan di setiap layanan",
-        "Dipercaya villa, hotel, dan bisnis",
-        "Jadwal fleksibel dan tepat waktu"
+        "Teknisi berpengalaman dan tersertifikasi",
+        "Garansi kepuasan & purna jual di setiap layanan",
+        "Dipercaya villa, resort, restoran & night club di Bali",
+        "Pengerjaan presisi dan selesai tepat waktu"
       ],
       "cta": "Book Now!"
     },
     "dividerStrip": {
-      "tagline": "Air, Sound & MEP Engineering in Bali",
+      "tagline": "HVAC • Ducting • Fresh Air • Ventilation • Acoustic • MEP Bali",
       "consultation": "Konsultasikan Kebutuhan Proyek Anda",
       "guarantee": "Standar Mutu & Garansi Resmi"
     },
     "services": {
       "eyebrow": "LAYANAN KAMI",
       "title": "Solusi Rekayasa Lengkap 01 Hingga 06",
-      "subtitle": "Dari perencanaan sistem pendingin presisi hingga instalasi MEP terintegrasi, kami memastikan setiap detail bangunan Anda beroperasi optimal, efisien, dan tahan lama di iklim Bali.",
+      "subtitle": "Dari instalasi AC mainroom & sistem ducting presisi hingga sirkulasi fresh air, exhaust fan, peredam suara akustik, dan MEP terintegrasi untuk bangunan di iklim tropis Bali.",
       "imageAlt": "Layanan Rekayasa Bali Electrical Solutions",
       "colNo": "NO",
       "colItem": "ITEM",
@@ -95,60 +95,66 @@
       "items": [
         {
           "title": "Teknisi Berpengalaman & Bersertifikat",
-          "description": "Tim kami terdiri dari insinyur dan teknisi berlisensi dengan rekam jejak terbukti dalam proyek-proyek residensial mewah dan komersial bergengsi."
+          "description": "Tim kami terdiri dari insinyur dan teknisi ahli dengan rekam jejak terbukti di proyek villa mewah, night club, beach club, dan gedung komersial di Bali."
         },
         {
-          "title": "Material & Komponen Standar Industri",
-          "description": "Kami hanya menggunakan material berspesifikasi tinggi yang teruji tahan korosi cuaca laut dan cuaca tropis Bali."
+          "title": "Material Tahan Iklim Pesisir Bali",
+          "description": "Menggunakan ducting PIR/BJLS berinsulasi anti-kondensasi dan komponen spesifikasi tinggi yang tahan kelembapan serta korosi udara pantai."
         },
         {
-          "title": "Efisiensi Energi & Ramah Lingkungan",
-          "description": "Desain teknik kami memprioritaskan konsumsi daya terendah tanpa mengorbankan performa sistem."
+          "title": "Kalkulasi CFM & BTU Presisi",
+          "description": "Desain kapasitas pendinginan, pertukaran udara segar (fresh air), dan exhaust dihitung akurat agar ruangan dingin merata dan hemat energi."
         },
         {
           "title": "Jaminan Garansi Resmi & Sigap",
-          "description": "Setiap pekerjaan instalasi disertai garansi hasil kerja nyata dan komitmen layanan purna jual yang sigap."
+          "description": "Setiap instalasi disertai transparansi RAB, pengujian commissioning menyeluruh, garansi hasil kerja nyata, dan tim lokal Badung-Bali yang responsif."
         }
       ]
     },
     "cta": {
       "title": "Wujudkan Kenyamanan & Keandalan Bangunan Anda Bersama Kami",
-      "subtitle": "Konsultasikan kebutuhan HVAC, ducting, peredam suara, atau instalasi MEP villa & bisnis Anda langsung dengan tim insinyur kami.",
+      "subtitle": "Konsultasikan kebutuhan HVAC, sistem ducting, fresh air, ventilasi exhaust, peredam suara akustik, atau instalasi MEP properti Anda langsung dengan tim kami di Bali.",
       "button": "Konsultasi Sekarang"
     },
     "testimonials": {
-      "eyebrow": "TESTIMONI KLIEN",
-      "title": "Dipercaya Properti & Bisnis Terbaik di Bali",
-      "subtitle": "Pengalaman nyata dari pemilik villa, resort, dan pengelola bisnis komersial di Bali.",
+      "eyebrow": "PORTOFOLIO & TESTIMONI KLIEN",
+      "title": "Dipercaya Proyek Komersial, Night Club & Villa di Bali",
+      "subtitle": "Rekam jejak nyata pengerjaan sistem ducting, tata udara, ventilasi, akustik, dan MEP pada bisnis dan properti unggulan di Bali.",
       "items": [
         {
+          "name": "Mr. Aslan",
+          "role": "Project Owner, Elliniko Night Club — Berawa, Canggu",
+          "content": "Pengerjaan full sistem ducting, AC mainroom, fresh air mainroom, exhaust fan, hingga sirkulasi udara toilet sangat rapi dan terukur. Udara di dalam club tetap dingin dan segar tanpa pengap meski kapasitas pengunjung penuh.",
+          "rating": 5
+        },
+        {
           "name": "Alexandre Mercier",
-          "role": "Owner, Luxury Cliff Villa Uluwatu",
-          "content": "Instalasi VRV dan ducting PIR sangat rapi dan presisi. Suhu ruangan selalu stabil dingin meski di tepi tebing yang panas dan berangin laut.",
+          "role": "Owner, Luxury Cliff Villa — Uluwatu",
+          "content": "Instalasi VRV dan ducting PIR concealed sangat rapi tanpa kondensasi. Suhu ruangan selalu stabil dingin dan senyap meski berada di tepi tebing yang panas dan berangin laut.",
           "rating": 5
         },
         {
           "name": "Ketut Suardika",
-          "role": "General Manager, Seminyak Boutique Resort",
-          "content": "Solusi peredam suara untuk ruang genset dan chiller sangat efektif. Tamu kami tidak pernah lagi terganggu kebisingan mesin.",
+          "role": "General Manager, Boutique Resort — Seminyak",
+          "content": "Solusi peredam suara akustik (soundproofing) untuk ruang genset dan chiller sangat efektif. Tamu resort kami tidak pernah lagi terganggu kebisingan mesin.",
           "rating": 5
         },
         {
           "name": "Sarah Jenkins",
-          "role": "Managing Director, Canggu Dining Group",
-          "content": "Sistem exhaust kitchen hood dan ventilasi resto kami berjalan sempurna tanpa asap tebal keluar ke area makan tamu. Tim sangat profesional!",
+          "role": "Managing Director, Commercial Dining Group — Canggu",
+          "content": "Sistem exhaust fan kitchen hood dan sirkulasi udara resto kami berjalan sempurna tanpa asap keluar ke area makan tamu. Tim sangat profesional dan tepat waktu!",
           "rating": 5
         },
         {
           "name": "Budi Hartono",
-          "role": "Property Developer, Sanur Residential Complex",
-          "content": "Pekerjaan panel LVMDP, grounding, dan pemipaan MEP selesai tepat waktu dengan standar keamanan SNI yang ketat. Mitra terbaik di Bali.",
+          "role": "Property Developer, Residential Complex — Sanur",
+          "content": "Pekerjaan panel LVMDP, distribusi listrik, grounding, dan pemipaan MEP selesai sesuai jadwal dengan standar keamanan SNI yang ketat. Kontraktor MEP terbaik di Bali.",
           "rating": 5
         },
         {
           "name": "Liam Henderson",
-          "role": "Villa Estate Manager, Ubud Retreat",
-          "content": "Sistem fresh air sirkulasi dan dehumidifier membuat ruangan villa bebas bau apek dan jamur meski kelembapan di Ubud sangat tinggi.",
+          "role": "Villa Estate Manager — Ubud",
+          "content": "Sistem fresh air intake dan dehumidifier membuat seluruh ruangan tertutup di villa bebas bau apek dan jamur meski kelembapan di Ubud sangat tinggi.",
           "rating": 5
         }
       ]
@@ -285,13 +291,13 @@
   },
   "servicesPage": {
     "meta": {
-      "title": "Layanan Rekayasa Teknik & MEP di Bali",
-      "description": "Daftar lengkap layanan rekayasa HVAC, sistem ducting, sirkulasi fresh air, ventilasi industri, akustik peredam bising, dan MEP mekanikal elektrikal."
+      "title": "Layanan HVAC, Ducting, Fresh Air, Ventilasi, Akustik & MEP di Bali",
+      "description": "Spesifikasi layanan lengkap Bali Electrical Solutions: instalasi AC HVAC, fabrikasi ducting PIR/BJLS, sirkulasi fresh air mainroom, exhaust fan ventilasi, peredam suara akustik night club, dan MEP di Bali."
     },
     "hero": {
       "eyebrow": "KATALOG TEKNIK & MEP",
       "title": "Spesifikasi & Layanan Lengkap",
-      "subtitle": "Informasi teknis mendalam dan standar rekayasa MEP, HVAC, ducting, ventilasi, dan akustik untuk bangunan komersial, villa mewah, dan resort di Bali."
+      "subtitle": "Informasi teknis mendalam dan standar rekayasa HVAC, ducting, fresh air, ventilasi, akustik, dan MEP untuk bangunan komersial, night club, beach club, villa mewah, dan resort di Bali."
     },
     "process": {
       "eyebrow": "ALUR KERJA",

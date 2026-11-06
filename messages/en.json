@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Bali Electrical Solutions - HVAC, Electrical & MEP Engineering in Bali",
-    "description": "Bali's trusted engineering partner for HVAC systems, duct fabrication, fresh air intake, industrial ventilation, acoustic soundproofing, and MEP services."
+    "title": "Bali Electrical Solutions - HVAC, Ducting, Fresh Air, Ventilation, Acoustic & MEP Contractor in Bali",
+    "description": "Trusted engineering contractor in Bali for HVAC systems, AC ducting fabrication, fresh air circulation, commercial exhaust ventilation, acoustic soundproofing, and MEP solutions across Canggu, Seminyak, Uluwatu, Badung & Bali."
   },
   "nav": {
     "home": "Home",
@@ -13,12 +13,12 @@
     "consultation": "Free Consultation"
   },
   "hero": {
-    "badge": "Professional HVAC, Electrical & MEP Engineering in Bali",
+    "badge": "HVAC • Ducting • Fresh Air • Ventilation • Acoustic & Soundproofing • MEP Solutions",
     "titleLine1": "Clean air,",
     "titleLine2": "comfortable spaces,",
     "titleLine3": "reliable systems.",
-    "title": "High-Performance Air Conditioning, MEP & Electrical Solutions",
-    "subtitle": "Bali Electrical Solutions delivers HVAC, ducting, ventilation, acoustic soundproofing, and MEP for villas, hotels, and commercial buildings in Bali.",
+    "title": "High-Performance Air Conditioning, MEP & Electrical Solutions in Bali",
+    "subtitle": "Bali Electrical Solutions delivers HVAC, custom ducting, fresh air intake, exhaust ventilation, acoustic soundproofing, and MEP engineering for luxury villas, resorts, restaurants, beach clubs, and nightclubs across Bali.",
     "ctaPrimary": "Request Quote",
     "ctaSecondary": "View Services",
     "imagePlaceholder": "[MAIN PHOTO: HVAC ENGINEER / PROJECT]",
@@ -35,13 +35,13 @@
   },
   "about": {
     "badge": "ABOUT US",
-    "title": "Reliable mechanical & electrical solutions for every building in Bali",
-    "description": "From private villas to commercial establishments, we manage engineering design, installation, and lifecycle maintenance for HVAC, ventilation, acoustics, and MEP with precision craftsmanship.",
+    "title": "Reliable HVAC, air engineering & MEP solutions for every building in Bali",
+    "description": "From private cliff villas in Uluwatu to nightclubs, beach clubs, and commercial venues in Berawa Canggu, we handle engineering design, installation, and maintenance for HVAC, ducting, fresh air, ventilation, acoustics, and MEP.",
     "bullets": [
-      "Experienced & rigorously certified technicians",
-      "Satisfaction guarantee on every service",
-      "Trusted by villas, luxury resorts, and businesses",
-      "Flexible scheduling & punctual project delivery"
+      "Experienced & certified engineering technicians",
+      "Workmanship warranty on every installation",
+      "Trusted by villas, luxury resorts, restaurants & nightclubs",
+      "Precision execution & on-schedule project handover"
     ],
     "cta": "Book Now!",
     "badgeMEP": "MEP",
@@ -63,28 +63,28 @@
   "Home": {
     "about": {
       "eyebrow": "ABOUT US",
-      "title": "Reliable mechanical & electrical solutions for every building in Bali",
-      "description": "From villas to commercial properties, we handle engineering planning, installation, and maintenance of air systems, ventilation, acoustics, and MEP with precision and measured quality.",
-      "imageAlt": "About Bali Electrical Solutions",
+      "title": "Reliable HVAC, air engineering & MEP solutions for every building in Bali",
+      "description": "From luxury villas to nightclubs, beach clubs, restaurants, and commercial properties in Canggu, Seminyak, and across Bali, we handle engineering planning, duct fabrication, AC installation, fresh air intake, exhaust ventilation, acoustic soundproofing, and MEP systems.",
+      "imageAlt": "About Bali Electrical Solutions - HVAC, Ducting & MEP Contractor Bali",
       "badgeTop": "MEP",
       "badgeBottom": "Integrated Team",
       "points": [
-        "Experienced and well-trained technicians",
-        "Satisfaction guarantee on every service",
-        "Trusted by villas, hotels, and commercial businesses",
-        "Flexible scheduling and on-time delivery"
+        "Experienced and certified engineering technicians",
+        "Official workmanship warranty & after-sales support",
+        "Trusted by villas, resorts, restaurants & nightclubs in Bali",
+        "Clean execution and on-time project delivery"
       ],
       "cta": "Book Now!"
     },
     "dividerStrip": {
-      "tagline": "Air, Sound & MEP Engineering in Bali",
+      "tagline": "HVAC • Ducting • Fresh Air • Ventilation • Acoustic • MEP Bali",
       "consultation": "Consult Your Project Needs With Us",
       "guarantee": "Official Quality Standards & Warranty"
     },
     "services": {
       "eyebrow": "OUR SERVICES",
       "title": "Complete Engineering Solutions 01 to 06",
-      "subtitle": "From precision climate control design to integrated MEP installations, we ensure every element of your building operates efficiently and reliably across Bali's tropical conditions.",
+      "subtitle": "From mainroom air conditioning and precision ducting to fresh air circulation, exhaust fans, acoustic soundproofing, and integrated MEP built for Bali's tropical climate.",
       "imageAlt": "Bali Electrical Solutions Engineering Services",
       "colNo": "NO",
       "colItem": "ITEM",
@@ -95,60 +95,66 @@
       "items": [
         {
           "title": "Certified & Seasoned Engineers",
-          "description": "Our team consists of licensed engineers with verified records across luxury resorts, private villas, and commercial complexes."
+          "description": "Our team consists of experienced engineers with proven track records across luxury villas, resorts, nightclubs, and commercial venues in Bali."
         },
         {
-          "title": "Marine & Tropical Grade Materials",
-          "description": "We select corrosion-resistant hardware and anti-condensation materials built to withstand Bali's seaside atmosphere."
+          "title": "Tropical & Coastal Grade Materials",
+          "description": "We use anti-condensation PIR/BJLS insulated ducting and corrosion-resistant hardware engineered for Bali's humid coastal environment."
         },
         {
-          "title": "Energy Efficiency & Low OpEx",
-          "description": "Our engineering blueprints are optimized for minimal electrical consumption and reduced lifetime operational expenditure."
+          "title": "Accurate CFM & Heat Load Sizing",
+          "description": "Every AC cooling load, fresh air supply, and exhaust extraction system is accurately calculated for optimal airflow and lower power bills."
         },
         {
-          "title": "Official Warranty & Responsive Support",
-          "description": "Every project is backed by comprehensive labor and material warranties alongside dependable after-sales care."
+          "title": "Official Warranty & Local Bali Team",
+          "description": "Transparent itemized quotations, full airflow testing & commissioning, official workmanship warranties, and responsive Badung-based support."
         }
       ]
     },
     "cta": {
       "title": "Build Exceptional Climate & MEP Engineering With Us",
-      "subtitle": "Consult your villa, resort, or commercial project requirements directly with our licensed engineering team today.",
+      "subtitle": "Consult your villa, resort, restaurant, nightclub, or commercial project requirements directly with our Bali engineering team today.",
       "button": "Get in Touch"
     },
     "testimonials": {
-      "eyebrow": "CLIENT TESTIMONIALS",
-      "title": "Trusted by Bali's Premier Properties & Businesses",
-      "subtitle": "Real experiences from luxury villa owners, boutique resorts, and commercial operators across Bali.",
+      "eyebrow": "PORTFOLIO & CLIENT TESTIMONIALS",
+      "title": "Trusted by Bali's Nightclubs, Commercial Venues & Luxury Villas",
+      "subtitle": "Proven track record delivering ducting systems, air conditioning, fresh air, ventilation, acoustics, and MEP across Bali.",
       "items": [
         {
+          "name": "Mr. Aslan",
+          "role": "Project Owner, Elliniko Night Club — Berawa, Canggu",
+          "content": "Full ducting system, mainroom air conditioning, mainroom fresh air intake, exhaust fans, and restroom air circulation were executed with outstanding precision. The club stays cool, fresh, and smoke-free even at full crowd capacity.",
+          "rating": 5
+        },
+        {
           "name": "Alexandre Mercier",
-          "role": "Owner, Luxury Cliff Villa Uluwatu",
-          "content": "The VRV installation and PIR ducting are incredibly clean and accurate. Indoor cooling stays remarkably steady despite the harsh coastal cliff conditions.",
+          "role": "Owner, Luxury Cliff Villa — Uluwatu",
+          "content": "The VRV installation and concealed PIR ducting are incredibly clean and condensation-free. Indoor cooling stays remarkably steady despite the harsh coastal cliff conditions.",
           "rating": 5
         },
         {
           "name": "Ketut Suardika",
-          "role": "General Manager, Seminyak Boutique Resort",
-          "content": "The soundproofing engineered for our chiller plant and generator room made an immense difference. Guests enjoy total acoustic serenity.",
+          "role": "General Manager, Boutique Resort — Seminyak",
+          "content": "The acoustic soundproofing engineered for our chiller plant and generator room made an immense difference. Guests enjoy total acoustic serenity.",
           "rating": 5
         },
         {
           "name": "Sarah Jenkins",
-          "role": "Managing Director, Canggu Dining Group",
+          "role": "Managing Director, Commercial Dining Group — Canggu",
           "content": "Our restaurant kitchen hood exhaust and air circulation operate flawlessly. Highly impressed by their engineering punctuality and neat execution.",
           "rating": 5
         },
         {
           "name": "Budi Hartono",
-          "role": "Property Developer, Sanur Residential Complex",
-          "content": "LVMDP electrical panels, lightning protection, and plumbing works were completed on schedule under strict standards. An exceptional partner.",
+          "role": "Property Developer, Residential Complex — Sanur",
+          "content": "LVMDP electrical panels, lightning protection, and plumbing works were completed on schedule under strict SNI standards. An exceptional MEP partner in Bali.",
           "rating": 5
         },
         {
           "name": "Liam Henderson",
-          "role": "Villa Estate Manager, Ubud Retreat",
-          "content": "The fresh air and dehumidification system keeps our enclosed suites completely free from mustiness and mold, even during peak rainy humidity in Ubud.",
+          "role": "Villa Estate Manager — Ubud",
+          "content": "The fresh air intake and dehumidification system keeps our enclosed suites completely free from mustiness and mold, even during peak rainy humidity in Ubud.",
           "rating": 5
         }
       ]
@@ -285,13 +291,13 @@
   },
   "servicesPage": {
     "meta": {
-      "title": "Engineering & MEP Services in Bali",
-      "description": "Complete engineering services in Bali covering HVAC systems, custom ducting, fresh air circulation, industrial ventilation, acoustics, and integrated MEP."
+      "title": "HVAC, Ducting, Fresh Air, Ventilation, Acoustic & MEP Services in Bali",
+      "description": "Complete engineering services in Bali: HVAC air conditioning, PIR/BJLS duct fabrication, mainroom fresh air circulation, exhaust fan ventilation, nightclub acoustic soundproofing, and MEP solutions."
     },
     "hero": {
       "eyebrow": "ENGINEERING & MEP CATALOG",
       "title": "Comprehensive Engineering Services",
-      "subtitle": "In-depth technical specifications and engineering standards for MEP, HVAC, ducting, ventilation, and acoustic systems in Bali villas, resorts, and commercial spaces."
+      "subtitle": "In-depth technical specifications and engineering standards for HVAC, ducting, fresh air, ventilation, acoustic soundproofing, and MEP systems in Bali villas, resorts, nightclubs, and commercial spaces."
     },
     "process": {
       "eyebrow": "OUR PROCESS",
