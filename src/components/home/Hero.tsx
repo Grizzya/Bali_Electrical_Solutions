@@ -28,12 +28,12 @@ export default function Hero() {
   return (
     <div className="min-h-[calc(100vh-6rem)] flex flex-col justify-between">
       {/* Hero Main Section: Full height flex-grow, proporsional besar 1 layar */}
-      <section id="hero" className="relative flex-grow flex items-center bg-white text-slate-800 py-12 lg:py-16 overflow-hidden">
+      <section id="hero" className="relative flex-grow flex items-center bg-white text-slate-800 py-8 sm:py-12 lg:py-16 overflow-hidden">
         <div className="w-full max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10 lg:gap-14 items-center">
             
             {/* Kolom Kiri: Teks & Aksi dengan animasi fade entrance */}
-            <div className="lg:col-span-6 space-y-6 lg:space-y-7 text-left animate-hero-fade">
+            <div className="lg:col-span-6 space-y-5 sm:space-y-6 lg:space-y-7 text-left animate-hero-fade">
               {/* Aksen Garis Emas */}
               <div className="w-16 h-1.5 bg-[#F2C21B] rounded-full"></div>
 
@@ -50,7 +50,7 @@ export default function Hero() {
               </p>
 
               {/* Tombol Aksi */}
-              <div className="pt-2 flex flex-wrap items-center gap-4">
+              <div className="pt-1 sm:pt-2 flex flex-wrap items-center gap-4">
                 <a
                   href={SITE_CONFIG.whatsappUrl}
                   target="_blank"
@@ -62,21 +62,113 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Kolom Kanan: Foto Utama dengan Outer Yellow Line Frame & Entrance Scale */}
+            {/* Kolom Kanan: 5 Aset 3D Individual Tanpa Border & Responsif Penuh di HP/Tablet/Desktop */}
             <div className="lg:col-span-6 flex justify-center lg:justify-end animate-hero-image">
-              <div className="relative w-full max-w-md lg:max-w-2xl p-3 sm:p-4 group">
-                {/* Outer Yellow Frame Accent dengan soft pulse halus */}
-                <div className="absolute inset-0 rounded-[2.5rem] sm:rounded-[3rem] border-2 border-[#F2C21B] pointer-events-none transition-transform duration-500 group-hover:scale-105"></div>
+              <div className="relative w-full max-w-[420px] sm:max-w-[560px] lg:max-w-none aspect-[4/3] mx-auto select-none">
+                {/* Ambient Warm Gold Glow di Tengah */}
+                <div
+                  className="absolute left-1/2 top-[48%] -translate-x-1/2 -translate-y-1/2 w-[74%] aspect-square rounded-full pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(circle, rgba(242,194,27,0.25) 0%, rgba(242,194,27,0.07) 55%, rgba(255,255,255,0) 100%)',
+                  }}
+                />
 
-                {/* Main Photo Container */}
-                <div className="relative aspect-[4/3] min-h-[300px] sm:min-h-[380px] lg:min-h-[420px] w-full rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden bg-slate-100 shadow-2xl flex items-center justify-center transition-transform duration-500 group-hover:scale-[0.99]">
+                {/* Floor Shadows (Bayangan Lantai di Bawah Masing-Masing Ikon) */}
+                {/* Shadow 1: Kiri Atas (Ducting) */}
+                <div
+                  className="absolute left-[4.5%] sm:left-[6.5%] top-[37.5%] w-[23%] sm:w-[21.5%] h-[8.5%] rounded-full pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(ellipse at center, rgba(15,23,42,0.17) 0%, rgba(11,92,80,0.05) 58%, transparent 100%)',
+                  }}
+                />
+                {/* Shadow 2: Kanan Atas (HVAC AC) */}
+                <div
+                  className="absolute left-[70.5%] sm:left-[70.5%] top-[38.0%] w-[24.5%] sm:w-[23%] h-[8.8%] rounded-full pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(ellipse at center, rgba(15,23,42,0.17) 0%, rgba(11,92,80,0.05) 58%, transparent 100%)',
+                  }}
+                />
+                {/* Shadow 3: Kiri Bawah (Exhaust Fan) */}
+                <div
+                  className="absolute left-[5.0%] sm:left-[7.0%] top-[89.0%] w-[22.5%] sm:w-[21%] h-[8.5%] rounded-full pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(ellipse at center, rgba(15,23,42,0.17) 0%, rgba(11,92,80,0.05) 58%, transparent 100%)',
+                  }}
+                />
+                {/* Shadow 4: Kanan Bawah (Speaker) */}
+                <div
+                  className="absolute left-[70.5%] sm:left-[70.5%] top-[88.0%] w-[24%] sm:w-[22.5%] h-[8.6%] rounded-full pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(ellipse at center, rgba(15,23,42,0.17) 0%, rgba(11,92,80,0.05) 58%, transparent 100%)',
+                  }}
+                />
+                {/* Shadow 5: Tengah (Petir Utama) */}
+                <div
+                  className="absolute left-[35.0%] top-[82.5%] w-[30%] sm:w-[28.5%] h-[11%] rounded-full pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(ellipse at center, rgba(180,83,9,0.26) 0%, rgba(242,194,27,0.10) 58%, transparent 100%)',
+                  }}
+                />
+
+                {/* 1. Kiri Atas: Pipa Ducting Biru */}
+                <div className="absolute left-[3.5%] sm:left-[5.5%] top-[5.5%] w-[25.5%] sm:w-[24%] aspect-[500/513] animate-float-1 transition-transform duration-500 hover:scale-105">
                   <Image
-                    src="/images/hero.webp"
-                    alt="Bali Electrical Solutions - Kontraktor HVAC, Ducting, Fresh Air, Ventilasi, Soundproofing & MEP di Bali"
+                    src="/images/hero/ducting-3d.webp"
+                    alt="Instalasi Ducting Bali"
+                    fill
+                    sizes="(max-width: 768px) 32vw, 18vw"
+                    className="object-contain drop-shadow-[0_14px_14px_rgba(15,23,42,0.16)] sm:drop-shadow-[0_18px_18px_rgba(15,23,42,0.16)]"
+                  />
+                </div>
+
+                {/* 2. Kanan Atas: Unit AC HVAC */}
+                <div className="absolute left-[68.0%] sm:left-[68.5%] top-[2.5%] w-[28%] sm:w-[26.5%] aspect-[540/555] animate-float-2 transition-transform duration-500 hover:scale-105">
+                  <Image
+                    src="/images/hero/hvac-ac-3d.webp"
+                    alt="Kontraktor HVAC & AC Bali"
+                    fill
+                    sizes="(max-width: 768px) 34vw, 20vw"
+                    className="object-contain drop-shadow-[0_14px_14px_rgba(15,23,42,0.16)] sm:drop-shadow-[0_18px_18px_rgba(15,23,42,0.16)]"
+                  />
+                </div>
+
+                {/* 3. Kiri Bawah: Exhaust Fan Ventilasi */}
+                <div className="absolute left-[4.5%] sm:left-[6.5%] top-[47.0%] w-[22.5%] sm:w-[21%] aspect-[460/686] animate-float-3 transition-transform duration-500 hover:scale-105">
+                  <Image
+                    src="/images/hero/exhaust-fan-3d.webp"
+                    alt="Sistem Ventilasi & Exhaust Fan Bali"
+                    fill
+                    sizes="(max-width: 768px) 30vw, 16vw"
+                    className="object-contain drop-shadow-[0_14px_14px_rgba(15,23,42,0.16)] sm:drop-shadow-[0_18px_18px_rgba(15,23,42,0.16)]"
+                  />
+                </div>
+
+                {/* 4. Kanan Bawah: Speaker Acoustic & Soundproofing */}
+                <div className="absolute left-[68.5%] sm:left-[69.0%] top-[53.5%] w-[26.5%] sm:w-[25%] aspect-[500/509] animate-float-4 transition-transform duration-500 hover:scale-105">
+                  <Image
+                    src="/images/hero/speaker-3d.webp"
+                    alt="Peredam Suara & Soundproofing Bali"
+                    fill
+                    sizes="(max-width: 768px) 32vw, 18vw"
+                    className="object-contain drop-shadow-[0_14px_14px_rgba(15,23,42,0.16)] sm:drop-shadow-[0_18px_18px_rgba(15,23,42,0.16)]"
+                  />
+                </div>
+
+                {/* 5. Tengah: Petir MEP Utama */}
+                <div className="absolute left-[34.5%] sm:left-[35.5%] top-[12.5%] w-[32%] sm:w-[30%] aspect-[529/900] z-10 animate-float-center transition-transform duration-500 hover:scale-105">
+                  <Image
+                    src="/images/hero/lightning-bolt-3d.webp"
+                    alt="Kontraktor Listrik & MEP Bali Electrical Solutions"
                     fill
                     priority
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    sizes="(max-width: 768px) 38vw, 22vw"
+                    className="object-contain drop-shadow-[0_18px_18px_rgba(180,83,9,0.28)] sm:drop-shadow-[0_24px_24px_rgba(180,83,9,0.28)]"
                   />
                 </div>
               </div>
