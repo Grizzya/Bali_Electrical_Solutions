@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { SITE_CONFIG } from '@/lib/constants';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ['', '/services', '/about-us'];
+  const routes = ['', '/services', '/about-us', '/gallery'];
   const locales = ['id', 'en'] as const;
   const now = new Date();
 

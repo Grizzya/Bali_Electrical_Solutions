@@ -13,7 +13,7 @@ export default function Header() {
     { href: '/', label: t('home') },
     { href: '/services', label: t('services') },
     { href: '/about-us', label: t('about') },
-    { href: '/#gallery', label: t('gallery') },
+    { href: '/gallery', label: t('gallery') },
   ];
 
   return (

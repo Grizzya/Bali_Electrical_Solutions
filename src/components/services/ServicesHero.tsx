@@ -15,7 +15,8 @@ export default function ServicesHero() {
     >
       <CircuitBackdrop />
 
-      <div className="relative mx-auto w-full max-w-6xl px-5 md:px-8 text-left">
+      <div className="relative mx-auto w-full max-w-6xl px-5 md:px-8 text-left animate-hero-fade">
+        <div className="w-14 h-1.5 bg-[#F2C21B] rounded-full mb-4" />
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight">
           {t.hero.title}
         </h1>

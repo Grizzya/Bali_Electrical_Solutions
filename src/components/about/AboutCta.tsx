@@ -4,13 +4,14 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import { WHATSAPP_URL } from '@/lib/constants';
 import { Link } from '@/i18n/navigation';
+import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function AboutCta() {
   const t = useTranslations('aboutPage');
 
   return (
-    <section className="bg-teal text-white py-16 md:py-20">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+    <section className="bg-teal text-white py-16 md:py-20 overflow-hidden">
+      <ScrollReveal className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
         <span className="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-3">
           {t('cta.eyebrow')}
         </span>
@@ -25,18 +26,18 @@ export default function AboutCta() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl bg-gold px-8 py-3.5 text-base font-bold text-teal transition-all duration-200 hover:brightness-105 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
+            className="inline-flex items-center justify-center rounded-xl bg-gold px-8 py-3.5 text-base font-bold text-teal transition-all duration-300 hover:brightness-105 hover:shadow-lg hover:-translate-y-0.5 hover:scale-[1.02] active:scale-95"
           >
             {t('cta.primaryBtn')}
           </a>
           <Link
             href="/services"
-            className="inline-flex items-center justify-center rounded-xl bg-white/10 border border-white/25 px-8 py-3.5 text-base font-bold text-white transition-all duration-200 hover:bg-white/20 active:translate-y-0"
+            className="inline-flex items-center justify-center rounded-xl bg-white/10 border border-white/25 px-8 py-3.5 text-base font-bold text-white transition-all duration-300 hover:bg-white/20 hover:-translate-y-0.5 active:scale-95"
           >
             {t('cta.secondaryBtn')}
           </Link>
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }

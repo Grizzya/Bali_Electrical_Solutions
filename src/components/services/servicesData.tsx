@@ -89,7 +89,7 @@ export function CircuitBackdrop() {
   return (
     <svg
       viewBox="0 0 600 520"
-      className="absolute inset-0 h-full w-full"
+      className="absolute inset-0 h-full w-full pointer-events-none"
       preserveAspectRatio="xMidYMid slice"
       aria-hidden="true"
     >
@@ -100,7 +100,7 @@ export function CircuitBackdrop() {
         <path d="M0 450h90l30-30h200l30 30h250" />
         <path d="M220 130v80M380 130v80M290 240v90M360 370v50" />
       </g>
-      <g fill={C.gold}>
+      <g fill={C.gold} className="animate-soft-pulse">
         <circle cx="220" cy="130" r="4" />
         <circle cx="380" cy="130" r="4" />
         <circle cx="290" cy="240" r="4" />
@@ -381,7 +381,7 @@ export function ServiceVisual({ k, index, alt }: { k: keyof typeof Icons; index:
 
   return (
     <div
-      className="relative overflow-hidden rounded-3xl"
+      className="group relative overflow-hidden rounded-3xl shadow-md transition-all duration-500 hover:shadow-xl hover:-translate-y-1"
       style={{ aspectRatio: "4 / 3", background: bg }}
     >
       {image ? (
@@ -391,14 +391,14 @@ export function ServiceVisual({ k, index, alt }: { k: keyof typeof Icons; index:
             alt={alt}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
           />
         </div>
       ) : (
         <>
           <svg
             viewBox="0 0 400 300"
-            className="absolute inset-0 h-full w-full"
+            className="absolute inset-0 h-full w-full transition-transform duration-700 ease-out group-hover:scale-105"
             preserveAspectRatio="xMidYMid slice"
             aria-hidden="true"
           >
@@ -411,10 +411,10 @@ export function ServiceVisual({ k, index, alt }: { k: keyof typeof Icons; index:
           </svg>
           <div className="absolute inset-0 flex items-center justify-center">
             <span
-              className="flex h-32 w-32 items-center justify-center rounded-full"
+              className="flex h-32 w-32 items-center justify-center rounded-full transition-transform duration-500 ease-out group-hover:scale-110 animate-float-center"
               style={{ border: `2px solid ${fg}`, color: fg }}
             >
-              <Icon className="h-14 w-14" />
+              <Icon className="h-14 w-14 transition-transform duration-500 group-hover:rotate-3" />
             </span>
           </div>
         </>
